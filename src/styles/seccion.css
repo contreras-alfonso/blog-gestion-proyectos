@@ -1,0 +1,713 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --color-primario: #131417;
+    --color-primario-bajo: #252830;
+    --color-secundario: white;
+    --color_texto: black;
+    --color-blanco: white;
+    --color-bg-body: #e3e3e3;
+}
+
+body::-webkit-scrollbar{
+    background-color: white;
+    width: 3px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #252830;
+    border-radius: 0px;
+}
+
+body{
+    background-color: var(--color-bg-body);
+}
+
+a{
+    text-decoration: none;
+    color: var(--color_texto);
+}
+
+.nombre_stake{
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: #131417;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color: white;
+    padding: 20px 40px;
+    transition: all 500ms;
+    
+}
+
+.header_enlaces_blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 30px;
+}
+
+.header_titulo{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.seccion_activa{
+    background-color: var(--color-primario);
+}
+
+.header_enlace{
+    color: black;
+    font-size: 25px;
+}
+
+
+.header_enlace_modoOscuro{
+    color: rgb(255, 227, 86);
+    
+}
+
+.titulo_blog{
+    text-align: center;
+    color: var(--color_texto);
+    margin: 50px 0;
+    font-size: 33px;
+    font-weight: 900;
+    margin-top: 90px;
+}
+
+.contenedor_blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.contenedor_azul{
+    background-color: rgb(19, 117, 170);
+}
+
+.contenedor_informacion{
+    color: var(--color_texto);
+    background-color: var(--color-secundario);
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: 70%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+    line-height: 25px;
+}
+
+.contenedor_informacion_img{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.contenedor_archivos{
+    color: var(--color_texto);
+    background-color: var(--color-secundario);
+    padding: 40px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+
+.footer_blog{
+    background-color: var(--color-primario);
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+    margin-top: 400px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.navegacion_scroll{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(20px);
+    box-sizing: border-box;
+    z-index: 10;
+    box-shadow: 1px 10px 12px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 1px 10px 12px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px 10px 12px 0px rgba(0,0,0,0.15);
+}
+
+.negrita{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.negrita_baja{
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.circulo{
+    font-size: 8px;
+}
+
+.seccion_principal a{
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 500ms;  
+    background-color: var(--color-primario-bajo);
+}
+
+.seccion_principal a:hover{
+    background-color: #131417; 
+}
+
+.seccion_principal{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    border: #131417 solid 1px;
+    background-color: var(--color-primario-bajo);  
+}
+
+.barra_secciones{
+   
+    background-color: var(--color-primario-bajo);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border-radius: 10px;
+
+    
+}   
+
+.barra_secciones a{
+    padding: 20px 30px; 
+    transition: all 500ms;
+    color: var(--color-bg-body);
+}
+
+.barra_secciones a:hover{
+    background-color: #4070F4;
+    border-radius: 10px;
+    color: white;
+}
+
+.barra_secciones .barra_secciones_activo{
+    background-color: #4070F4;
+    border-radius: 10px;
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 30px 0;
+
+}
+
+.subtitulo{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.parrafo{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.contenedor_imagen_blog{
+    text-align: center;
+}
+.check-verde{
+    color: rgb(30, 199, 30);
+}
+
+.numeroNegrita{
+    font-size: 22px;
+    color: rgb(193, 60, 87);
+    font-weight: 800;
+}
+.contenedor_informacion_img_80{
+    width: 80%;
+}
+
+.contenedor_informacion_img_70{
+    width: 70%;
+}
+
+.contenedor_informacion_img_60{
+    width: 60%;
+}
+
+.contenedor_imagen1{
+    text-align: center;
+    border: solid 1px black;
+}
+
+.contenedor_imagen_Equipo{
+    text-align: center;
+    height: 200px;
+}
+
+.icono_menu{
+    color: black;
+    font-size: 25px;
+}
+
+
+
+.menu_activo{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 76px;
+    z-index: 10;
+    animation: slideLeft 500ms ease forwards;
+    opacity: 0;
+
+}
+
+.contenedor_informacion_img_small{
+    width: 50%;
+}
+
+.contenedor_informacion_img_perfil{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.barra_menu{
+    display: none;
+    color: black;
+}
+
+.contenedor_equipoScrum{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    padding: 0px 150px;
+    
+}
+
+.nombre_integrante_scrum{
+    font-weight: 700;
+    font-size: 17px;
+    /* background-color: rgb(0, 145, 255); */
+    background-color: var(--color-primario-bajo);
+    color: white;
+    padding: 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+.card_equipoScrum{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px 0;
+    padding-top: 10px;
+    border-radius: 2px;
+    box-shadow: 1px 4px 20px 2px rgba(0,0,0,0.87);
+-webkit-box-shadow: 1px 4px 20px 2px rgba(0,0,0,0.87);
+-moz-box-shadow: 1px 4px 20px 2px rgba(0,0,0,0.87);
+height: 260px;
+
+
+}
+
+.rol_integrante{
+    background-color: rgb(0, 145, 255);
+    color: white;
+    border-radius: 18px;
+    padding: 5px 0;
+}
+
+.contenedor_informacion_img_equipoSrum{
+    width: 50%;
+    height: 100%;
+
+}
+
+.barra_menu{
+    display: none;
+}
+
+.url_video{
+    text-align: center;
+    font-size: 23px;
+    color: #1249e1;
+    color: white;
+    font-weight: 900;
+    transition: all 500ms;
+    background-color: #4070F4;
+    padding: 8px 0;
+    border-radius: 5px;
+}
+
+.url_video:hover{
+    transform: scale(1.08);
+}
+
+
+.navbar_blog{
+    width: 100%;
+    background-color: #44495a93;
+    background-color: #797c87;
+    height: 60px;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.fixed{
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.navbar_blog ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+   
+   
+
+}
+
+.navbar_blog ul li{
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+   
+}
+
+.navbar_blog ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 50px;
+    font-weight: 400;
+    font-size: 13px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+.navbar_blog ul li a:hover{
+    background-color: var(--color-primario);
+}
+.navbar_blog ul li ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    background-color: #44495ae2;
+    display: none;
+    width: calc(100vw - 1);
+    box-sizing: border-box;
+    z-index: 100;
+    
+}
+
+.navbar_blog ul li ul a{
+    padding: 30px 50px;
+}
+
+.enlace{
+  
+    text-align: center;
+}
+
+.enlace_d{
+    color: #4070F4;
+}
+
+.btn_black{
+    background-color: var(--color-primario);
+    border:none;
+    color: white;
+}
+.btn_black:hover{
+    color: white;
+}
+
+.btn_black::before{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(45, 45, 45));
+    background: linear-gradient(to right, #131417, #131417);
+}
+
+
+.navbar_blog ul li ul li ul{
+    left: 400px;
+    top: 0;
+}
+.navbar_blog ul li:focus-within > ul,
+.navbar_blog ul li:hover > ul{
+    display: flex;
+}
+
+/*-----------*/
+.contenedor_img_marco_logico{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor_img_marco_logico img{
+    width: 100%;
+}
+
+.contenedor_informacion_2{
+    color: var(--color_texto);
+    background-color: var(--color-secundario);
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: 90%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+    line-height: 25px;
+}
+
+
+.contenedor_pdf{
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 246, 242);
+    background-color: rgb(16, 112, 101);
+    margin-top: 20px;
+
+}
+
+.pdfview{
+    width: 100%;
+    height: 100%;
+}
+
+.subtitulo2{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.enlace_pdf{
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    color: white;
+    font-weight: 700;
+    padding: 10px 0;
+
+}
+
+@keyframes slideLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 1500px) {
+    .contenedor_equipoScrum{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
+@media (max-width: 680px) {
+
+    .menu_inactivo{
+        display: none;
+    }
+
+    .barra_menu{
+        display: flex;   
+    }
+    .seccion_principal{
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+
+    .header{
+        padding: 20px 30px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .barra_secciones{
+        display: none;
+    }
+
+    .contenedor_blog{
+        padding: 0;
+    }
+
+    .contenedor_informacion{
+        margin: 0;
+        margin: 0 auto;
+        width: 80%;
+        
+    }
+
+    .contenedor_informacion_img{
+        width: 100%;
+    }
+
+    .contenedor_informacion_img_small{
+        width: 100%;
+    }
+
+    .contenedor_informacion_img_perfil{
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+
+.parrafo{
+        font-size: 18px;
+    }
+
+    .contenedor_equipoScrum{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0;
+        gap: 15px;
+    }
+
+    .barra_menu{
+        display: flex;
+        text-decoration: none;
+    }
+
+    .menu_inactivo{
+    display: none;
+}
+
+.footer_blog{
+        font-size: 17px;
+    }
+
+
+}
+
+.acta_constitutiva{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(173, 61, 84);
+    
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 731px) {
+    .navbar_blog{
+        animation: slideLeft 500ms ease forwards;
+    }
+    .menu_oculto{
+        display: none;
+    }
+
+    .navbar_blog ul{
+        flex-direction: column;
+    }
+
+    .navbar_blog ul li ul{
+        position: relative;
+        width: 100%;
+    }
+
+    .navbar_blog ul li ul li ul{
+        left: 0;
+        background-color: rgb(31, 105, 209);
+    }
+
+    .seccion_principal{
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .menu_inactivo{
+    display: none;
+}
+}
+
+
+@media (max-width: 1150px) {
+.footer_blog{
+    font-size: 15px;
+}
+
+.titulo_blog{
+    font-size: 26px;
+}
+
+.titulo{
+    font-size: 24px;
+}
+
+.subtitulo{
+    font-size: 21px;
+}
+
+.parrafo{
+    font-size: 18px;
+}
+}
