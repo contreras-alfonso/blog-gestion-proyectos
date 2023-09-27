@@ -17,7 +17,7 @@ const CrearLaEdtWbs = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan para la dirección de proyectos.pdf"
+        href="/docs/plan para la dirección de proyectos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -26,7 +26,7 @@ const CrearLaEdtWbs = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan para la dirección de proyectos.pdf"
+        data="/docs/plan para la dirección de proyectos.pdf"
       />
     </div>
     <p className="subtitulo">Factores ambientales y Activos</p>
@@ -39,7 +39,7 @@ const CrearLaEdtWbs = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/FACTORES AMBIENTALES.pdf"
+        href="/docs/FACTORES AMBIENTALES.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -48,7 +48,7 @@ const CrearLaEdtWbs = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/FACTORES AMBIENTALES.pdf"
+        data="/docs/FACTORES AMBIENTALES.pdf"
       />
     </div>
     <p className="titulo">Herramientas</p>
@@ -60,7 +60,7 @@ const CrearLaEdtWbs = () => {
     </p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/EDT.png"
+        src="/images/EDT.png"
         alt="edt"
         className="contenedor_informacion_img"
       />
@@ -73,7 +73,7 @@ const CrearLaEdtWbs = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Línea Base del Alcance.pdf"
+        href="/docs/Línea Base del Alcance.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -82,7 +82,7 @@ const CrearLaEdtWbs = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Línea Base del Alcance.pdf"
+        data="/docs/Línea Base del Alcance.pdf"
       />
     </div>
   </div>

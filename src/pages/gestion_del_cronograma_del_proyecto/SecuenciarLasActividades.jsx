@@ -19,7 +19,7 @@ const SecuenciarLasActividades = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan para la dirección de proyectos.pdf"
+        href="/docs/plan para la dirección de proyectos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -28,13 +28,13 @@ const SecuenciarLasActividades = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan para la dirección de proyectos.pdf"
+        data="/docs/plan para la dirección de proyectos.pdf"
       />
     </div>
     <p className="subtitulo">Documentos del proyecto</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Salida - Atributos de Actividades.pdf"
+        href="/docs/Salida - Atributos de Actividades.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -43,7 +43,7 @@ const SecuenciarLasActividades = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Salida - Atributos de Actividades.pdf"
+        data="/docs/Salida - Atributos de Actividades.pdf"
       />
     </div>
     <p className="subtitulo">Factores ambientales y Activos</p>
@@ -55,7 +55,7 @@ const SecuenciarLasActividades = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/FACTORES AMBIENTALES.pdf"
+        href="/docs/FACTORES AMBIENTALES.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -64,7 +64,7 @@ const SecuenciarLasActividades = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/FACTORES AMBIENTALES.pdf"
+        data="/docs/FACTORES AMBIENTALES.pdf"
       />
     </div>
     <p className="titulo">Herramientas</p>
@@ -77,7 +77,7 @@ const SecuenciarLasActividades = () => {
     </p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/Herramienta - Metodo de Diagramacion por Precedencia.png"
+        src="/images/Herramienta - Metodo de Diagramacion por Precedencia.png"
         alt="analisi de alternativas"
         className="contenedor_informacion_img"
       />
@@ -93,7 +93,7 @@ const SecuenciarLasActividades = () => {
     </p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/Salida - Diagrama de Red del cronograma del proyecto.png "
+        src="/images/Salida - Diagrama de Red del cronograma del proyecto.png "
         alt="analisi de alternativas"
         className="contenedor_informacion_img"
       />

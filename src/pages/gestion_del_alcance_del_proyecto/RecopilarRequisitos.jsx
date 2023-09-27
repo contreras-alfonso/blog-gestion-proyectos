@@ -19,7 +19,7 @@ const RecopilarRequisitos = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Acta de constitucion del proyecto.pdf"
+        href="/docs/Acta de constitucion del proyecto.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -28,7 +28,7 @@ const RecopilarRequisitos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Acta de constitucion del proyecto.pdf"
+        data="/docs/Acta de constitucion del proyecto.pdf"
       />
     </div>
     <p className="subtitulo">Plan para la dirección del proyecto</p>
@@ -43,7 +43,7 @@ const RecopilarRequisitos = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan para la dirección de proyectos.pdf"
+        href="/docs/plan para la dirección de proyectos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -52,7 +52,7 @@ const RecopilarRequisitos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan para la dirección de proyectos.pdf"
+        data="/docs/plan para la dirección de proyectos.pdf"
       />
     </div>
     <p className="subtitulo">Factores ambientales y Activos</p>
@@ -65,7 +65,7 @@ const RecopilarRequisitos = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/FACTORES AMBIENTALES.pdf"
+        href="/docs/FACTORES AMBIENTALES.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -74,7 +74,7 @@ const RecopilarRequisitos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/FACTORES AMBIENTALES.pdf"
+        data="/docs/FACTORES AMBIENTALES.pdf"
       />
     </div>
     <p className="titulo">Herramientas</p>
@@ -89,7 +89,7 @@ const RecopilarRequisitos = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Herramienta - Recopilacion de datos - Cuestionario.pdf"
+        href="/docs/Herramienta - Recopilacion de datos - Cuestionario.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -98,7 +98,7 @@ const RecopilarRequisitos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Herramienta - Recopilacion de datos - Cuestionario.pdf"
+        data="/docs/Herramienta - Recopilacion de datos - Cuestionario.pdf"
       />
     </div>
     <p className="subtitulo2">
@@ -112,7 +112,7 @@ const RecopilarRequisitos = () => {
     </p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/Herramienta - Recopilacion de datos - Tormenta de ideas1.png"
+        src="/images/Herramienta - Recopilacion de datos - Tormenta de ideas1.png"
         alt="tormenta ideas"
         className="contenedor_informacion_img"
       />
@@ -128,7 +128,7 @@ const RecopilarRequisitos = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Herramienta -Analisis de datos - Caso de Negocio.pdf"
+        href="/docs/Herramienta -Analisis de datos - Caso de Negocio.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -137,7 +137,7 @@ const RecopilarRequisitos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Herramienta -Analisis de datos - Caso de Negocio.pdf"
+        data="/docs/Herramienta -Analisis de datos - Caso de Negocio.pdf"
       />
     </div>
     <p className="subtitulo">Representación de datos</p>
@@ -162,7 +162,7 @@ const RecopilarRequisitos = () => {
     </p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/Herramienta - Representacion de datos - Diagrama de afinidad.png"
+        src="/images/Herramienta - Representacion de datos - Diagrama de afinidad.png"
         alt="Representacion de datos"
         className="contenedor_informacion_img"
       />
@@ -171,7 +171,7 @@ const RecopilarRequisitos = () => {
     <p className="subtitulo">Documentación de requisitos</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Salida - Documentacion de Requisitos.pdf"
+        href="/docs/Salida - Documentacion de Requisitos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -180,7 +180,7 @@ const RecopilarRequisitos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Salida - Documentacion de Requisitos.pdf"
+        data="/docs/Salida - Documentacion de Requisitos.pdf"
       />
     </div>
   </div>

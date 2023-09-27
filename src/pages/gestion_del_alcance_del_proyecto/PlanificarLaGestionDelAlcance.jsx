@@ -19,7 +19,7 @@ const PlanificarLaGestionDelAlcance = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Acta de constitucion del proyecto.pdf"
+        href="/docs/Acta de constitucion del proyecto.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -28,7 +28,7 @@ const PlanificarLaGestionDelAlcance = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Acta de constitucion del proyecto.pdf"
+        data="/docs/Acta de constitucion del proyecto.pdf"
       />
     </div>
     <p className="subtitulo">Plan para la dirección del proyecto</p>
@@ -43,7 +43,7 @@ const PlanificarLaGestionDelAlcance = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan para la dirección de proyectos.pdf"
+        href="/docs/plan para la dirección de proyectos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -52,7 +52,7 @@ const PlanificarLaGestionDelAlcance = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan para la dirección de proyectos.pdf"
+        data="/docs/plan para la dirección de proyectos.pdf"
       />
     </div>
     <p className="subtitulo">Factores ambientales y Activos</p>
@@ -64,7 +64,7 @@ const PlanificarLaGestionDelAlcance = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/FACTORES AMBIENTALES.pdf"
+        href="/docs/FACTORES AMBIENTALES.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -73,7 +73,7 @@ const PlanificarLaGestionDelAlcance = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/FACTORES AMBIENTALES.pdf"
+        data="/docs/FACTORES AMBIENTALES.pdf"
       />
     </div>
     <p className="titulo">Herramientas</p>
@@ -87,7 +87,7 @@ const PlanificarLaGestionDelAlcance = () => {
     </p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/analisis_datos-analisis-de-alternativas.png"
+        src="/images/analisis_datos-analisis-de-alternativas.png"
         alt="analisi de alternativas"
         className="contenedor_informacion_img"
       />
@@ -101,7 +101,7 @@ const PlanificarLaGestionDelAlcance = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan-de-gestion-del-alcance.pdf"
+        href="/docs/plan-de-gestion-del-alcance.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -110,7 +110,7 @@ const PlanificarLaGestionDelAlcance = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan-de-gestion-del-alcance.pdf"
+        data="/docs/plan-de-gestion-del-alcance.pdf"
       />
     </div>
     <p className="subtitulo">Plan de gestión de los requisitos</p>
@@ -121,7 +121,7 @@ const PlanificarLaGestionDelAlcance = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Plan de Gestión de Requisitos.pdf"
+        href="/docs/Plan de Gestión de Requisitos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -130,7 +130,7 @@ const PlanificarLaGestionDelAlcance = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Plan de Gestión de Requisitos.pdf"
+        data="/docs/Plan de Gestión de Requisitos.pdf"
       />
     </div>
   </div>

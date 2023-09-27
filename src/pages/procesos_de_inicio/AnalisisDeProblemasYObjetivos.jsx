@@ -55,7 +55,7 @@ const AnalisisDeProblemasYObjetivos = () => {
     </p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/mapa_empatia2.jpeg"
+        src="/images/mapa_empatia2.jpeg"
         alt="analisis_problemas"
         className="contenedor_informacion_img "
       />
@@ -63,7 +63,7 @@ const AnalisisDeProblemasYObjetivos = () => {
     <p className="titulo">Análisis de problemas</p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/arbol_problemas2.png"
+        src="/images/arbol_problemas2.png"
         alt="analisis_problemas"
         className="contenedor_informacion_img contenedor_informacion_img"
       />
@@ -104,7 +104,7 @@ const AnalisisDeProblemasYObjetivos = () => {
     </p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/analisis_problemas.png"
+        src="/images/analisis_problemas.png"
         alt="analisis_problemas"
         className="contenedor_informacion_img"
       />
@@ -112,7 +112,7 @@ const AnalisisDeProblemasYObjetivos = () => {
     <p className="titulo">Análisis de objetivos</p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/analisis_objetivos.png"
+        src="/images/analisis_objetivos.png"
         alt="analisis_objetivos"
         className="contenedor_informacion_img"
       />

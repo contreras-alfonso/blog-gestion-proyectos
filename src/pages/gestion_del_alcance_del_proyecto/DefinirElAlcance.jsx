@@ -19,7 +19,7 @@ const DefinirElAlcance = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Acta de constitucion del proyecto.pdf"
+        href="/docs/Acta de constitucion del proyecto.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -28,7 +28,7 @@ const DefinirElAlcance = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Acta de constitucion del proyecto.pdf"
+        data="/docs/Acta de constitucion del proyecto.pdf"
       />
     </div>
     <p className="subtitulo">Plan de gestión del alcance</p>
@@ -39,7 +39,7 @@ const DefinirElAlcance = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan-de-gestion-del-alcance.pdf"
+        href="/docs/plan-de-gestion-del-alcance.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -48,7 +48,7 @@ const DefinirElAlcance = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan-de-gestion-del-alcance.pdf"
+        data="/docs/plan-de-gestion-del-alcance.pdf"
       />
     </div>
     <p className="subtitulo">Factores ambientales y Activos</p>
@@ -61,7 +61,7 @@ const DefinirElAlcance = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/FACTORES AMBIENTALES.pdf"
+        href="/docs/FACTORES AMBIENTALES.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -70,7 +70,7 @@ const DefinirElAlcance = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/FACTORES AMBIENTALES.pdf"
+        data="/docs/FACTORES AMBIENTALES.pdf"
       />
     </div>
     <p className="titulo">Herramientas</p>
@@ -84,7 +84,7 @@ const DefinirElAlcance = () => {
     </p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/analisis_datos-analisis-de-alternativas.png"
+        src="/images/analisis_datos-analisis-de-alternativas.png"
         alt="analisi de alternativas"
         className="contenedor_informacion_img"
       />
@@ -106,7 +106,7 @@ const DefinirElAlcance = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Salida - Documentacion de Requisitos.pdf"
+        href="/docs/Salida - Documentacion de Requisitos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -115,7 +115,7 @@ const DefinirElAlcance = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Salida - Documentacion de Requisitos.pdf"
+        data="/docs/Salida - Documentacion de Requisitos.pdf"
       />
     </div>
     <p className="titulo">Salidas</p>
@@ -128,7 +128,7 @@ const DefinirElAlcance = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/ENUNCIADO DEL ALCANCE DEL PROYECTO (1).pdf"
+        href="/docs/ENUNCIADO DEL ALCANCE DEL PROYECTO (1).pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -137,7 +137,7 @@ const DefinirElAlcance = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/ENUNCIADO DEL ALCANCE DEL PROYECTO (1).pdf"
+        data="/docs/ENUNCIADO DEL ALCANCE DEL PROYECTO (1).pdf"
       />
     </div>
   </div>

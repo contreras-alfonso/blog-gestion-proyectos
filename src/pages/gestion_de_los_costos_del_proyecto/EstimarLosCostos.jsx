@@ -20,7 +20,7 @@ const EstimarLosCostos = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan para la dirección de proyectos.pdf"
+        href="/docs/plan para la dirección de proyectos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -29,7 +29,7 @@ const EstimarLosCostos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan para la dirección de proyectos.pdf"
+        data="/docs/plan para la dirección de proyectos.pdf"
       />
     </div>
     <p className="subtitulo">Factores ambientales y Activos</p>
@@ -41,7 +41,7 @@ const EstimarLosCostos = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/FACTORES AMBIENTALES.pdf"
+        href="/docs/FACTORES AMBIENTALES.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -50,14 +50,14 @@ const EstimarLosCostos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/FACTORES AMBIENTALES.pdf"
+        data="/docs/FACTORES AMBIENTALES.pdf"
       />
     </div>
     <p className="titulo">Herramienta</p>
     <p className="subtitulo">Estimacion basada en 3 valores</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Herramienta - Estimacion basada en 3 valores.pdf"
+        href="/docs/Herramienta - Estimacion basada en 3 valores.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -66,13 +66,13 @@ const EstimarLosCostos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Herramienta - Estimacion basada en 3 valores.pdf"
+        data="/docs/Herramienta - Estimacion basada en 3 valores.pdf"
       />
     </div>
     <p className="subtitulo">Análisis de reserva</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Herramienta - Análisis de reserva .pdf"
+        href="/docs/Herramienta - Análisis de reserva .pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -81,14 +81,14 @@ const EstimarLosCostos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Herramienta - Análisis de reserva .pdf"
+        data="/docs/Herramienta - Análisis de reserva .pdf"
       />
     </div>
     <p className="titulo">Salida</p>
     <p className="subtitulo">Estimación de costos</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Salida - Estimacion de costos.pdf"
+        href="/docs/Salida - Estimacion de costos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -97,7 +97,7 @@ const EstimarLosCostos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Salida - Estimacion de costos.pdf"
+        data="/docs/Salida - Estimacion de costos.pdf"
       />
     </div>
   </div>

@@ -11,7 +11,7 @@ const DefinirLasActividades = () => {
     <p className="subtitulo">Plan para la dirección del proyecto</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan para la dirección de proyectos.pdf"
+        href="/docs/plan para la dirección de proyectos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -20,7 +20,7 @@ const DefinirLasActividades = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan para la dirección de proyectos.pdf"
+        data="/docs/plan para la dirección de proyectos.pdf"
       />
     </div>
     <p className="subtitulo">Factores ambientales y Activos</p>
@@ -32,7 +32,7 @@ const DefinirLasActividades = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/FACTORES AMBIENTALES.pdf"
+        href="/docs/FACTORES AMBIENTALES.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -41,14 +41,14 @@ const DefinirLasActividades = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/FACTORES AMBIENTALES.pdf"
+        data="/docs/FACTORES AMBIENTALES.pdf"
       />
     </div>
     <p className="titulo">Herramientas</p>
     <p className="subtitulo">Descomposición</p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/Herramienta - Descomposicion.png"
+        src="/images/Herramienta - Descomposicion.png"
         alt="Descomposicion"
         className="contenedor_informacion_img"
       />
@@ -57,7 +57,7 @@ const DefinirLasActividades = () => {
     <p className="subtitulo">Lista de actividades </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Salida - Lista de Actividades.pdf"
+        href="/docs/Salida - Lista de Actividades.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -66,13 +66,13 @@ const DefinirLasActividades = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Salida - Lista de Actividades.pdf"
+        data="/docs/Salida - Lista de Actividades.pdf"
       />
     </div>
     <p className="subtitulo">Atributos de actividades</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Salida - Atributos de Actividades.pdf"
+        href="/docs/Salida - Atributos de Actividades.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -81,7 +81,7 @@ const DefinirLasActividades = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Salida - Atributos de Actividades.pdf"
+        data="/docs/Salida - Atributos de Actividades.pdf"
       />
     </div>
   </div>

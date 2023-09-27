@@ -20,7 +20,7 @@ const DeterminarElPresupuesto = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan para la dirección de proyectos.pdf"
+        href="/docs/plan para la dirección de proyectos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -29,7 +29,7 @@ const DeterminarElPresupuesto = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan para la dirección de proyectos.pdf"
+        data="/docs/plan para la dirección de proyectos.pdf"
       />
     </div>
     <p className="subtitulo">Factores ambientales y Activos</p>
@@ -41,7 +41,7 @@ const DeterminarElPresupuesto = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/FACTORES AMBIENTALES.pdf"
+        href="/docs/FACTORES AMBIENTALES.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -50,14 +50,14 @@ const DeterminarElPresupuesto = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/FACTORES AMBIENTALES.pdf"
+        data="/docs/FACTORES AMBIENTALES.pdf"
       />
     </div>
     <p className="titulo">Herramientas</p>
     <p className="subtitulo">Análisis de reserva</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Herramienta - Análisis de reserva .pdf"
+        href="/docs/Herramienta - Análisis de reserva .pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -66,14 +66,14 @@ const DeterminarElPresupuesto = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Herramienta - Análisis de reserva .pdf"
+        data="/docs/Herramienta - Análisis de reserva .pdf"
       />
     </div>
     <p className="titulo">Salidas</p>
     <p className="subtitulo">Linea base de costos</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Salida- Linea base de costos.pdf"
+        href="/docs/Salida- Linea base de costos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -82,13 +82,13 @@ const DeterminarElPresupuesto = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Salida- Linea base de costos.pdf"
+        data="/docs/Salida- Linea base de costos.pdf"
       />
     </div>
     <p className="subtitulo">Presupuesto por tipo componente y paquete</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Salida- Presupuesto por tipo Componente y paquete.pdf"
+        href="/docs/Salida- Presupuesto por tipo Componente y paquete.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -97,7 +97,7 @@ const DeterminarElPresupuesto = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Salida- Presupuesto por tipo Componente y paquete.pdf"
+        data="/docs/Salida- Presupuesto por tipo Componente y paquete.pdf"
       />
     </div>
   </div>

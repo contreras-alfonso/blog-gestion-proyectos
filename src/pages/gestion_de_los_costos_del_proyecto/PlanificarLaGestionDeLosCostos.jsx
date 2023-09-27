@@ -19,7 +19,7 @@ const PlanificarLaGestionDeLosCostos = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Acta de constitucion del proyecto.pdf"
+        href="/docs/Acta de constitucion del proyecto.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -28,7 +28,7 @@ const PlanificarLaGestionDeLosCostos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Acta de constitucion del proyecto.pdf"
+        data="/docs/Acta de constitucion del proyecto.pdf"
       />
     </div>
     <p className="subtitulo">Plan para la dirección del proyecto</p>
@@ -43,7 +43,7 @@ const PlanificarLaGestionDeLosCostos = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan para la dirección de proyectos.pdf"
+        href="/docs/plan para la dirección de proyectos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -52,7 +52,7 @@ const PlanificarLaGestionDeLosCostos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan para la dirección de proyectos.pdf"
+        data="/docs/plan para la dirección de proyectos.pdf"
       />
     </div>
     <p className="subtitulo">Factores ambientales y Activos</p>
@@ -64,7 +64,7 @@ const PlanificarLaGestionDeLosCostos = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/FACTORES AMBIENTALES.pdf"
+        href="/docs/FACTORES AMBIENTALES.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -73,14 +73,14 @@ const PlanificarLaGestionDeLosCostos = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/FACTORES AMBIENTALES.pdf"
+        data="/docs/FACTORES AMBIENTALES.pdf"
       />
     </div>
     <p className="titulo">Herramientas</p>
     <p className="subtitulo">Reuniones</p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/herramientas_reunion.png"
+        src="/images/herramientas_reunion.png"
         alt="analisi de alternativas"
         className="contenedor_informacion_img_80"
       />
@@ -88,7 +88,7 @@ const PlanificarLaGestionDeLosCostos = () => {
     <p className="titulo">Salidas</p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/plan_gestion_costos.jpeg"
+        src="/images/plan_gestion_costos.jpeg"
         alt="analisi de alternativas"
         className="contenedor_informacion_img_80"
       />

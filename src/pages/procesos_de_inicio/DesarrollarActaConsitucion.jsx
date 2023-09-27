@@ -60,7 +60,7 @@ const DesarrollarActaConstitucion = () => {
     </p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/canvas.png"
+        src="/images/canvas.png"
         alt=""
         className="contenedor_informacion_img"
       />
@@ -69,13 +69,13 @@ const DesarrollarActaConstitucion = () => {
     <p className="subtitulo">Acta de constitución del proyecto</p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/acta_constitucion.png"
+        src="/images/acta_constitucion.png"
         alt=""
         className="contenedor_informacion_img_80"
       />
     </div>
     <div className="contenedor_proyecto_btnActa">
-            <a href="../../src/docs/Acta de Constitución del Proyecto.docx" download="">
+            <a href="/docs/Acta de Constitución del Proyecto.docx" download="">
                 <button className="btn btn_black">
                 Descargar acta constitutiva
                 </button>

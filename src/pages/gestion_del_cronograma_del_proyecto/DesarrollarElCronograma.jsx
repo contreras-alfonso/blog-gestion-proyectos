@@ -11,7 +11,7 @@ const DesarrollarElCronograma = () => {
     <p className="subtitulo">Plan para la dirección del proyecto</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan para la dirección de proyectos.pdf"
+        href="/docs/plan para la dirección de proyectos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -20,7 +20,7 @@ const DesarrollarElCronograma = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan para la dirección de proyectos.pdf"
+        data="/docs/plan para la dirección de proyectos.pdf"
       />
     </div>
     <p className="subtitulo">Factores ambientales y Activos</p>
@@ -32,7 +32,7 @@ const DesarrollarElCronograma = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/FACTORES AMBIENTALES.pdf"
+        href="/docs/FACTORES AMBIENTALES.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -41,13 +41,13 @@ const DesarrollarElCronograma = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/FACTORES AMBIENTALES.pdf"
+        data="/docs/FACTORES AMBIENTALES.pdf"
       />
     </div>
     <p className="subtitulo">Documentos del proyecto</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Salida - Atributos de Actividades.pdf"
+        href="/docs/Salida - Atributos de Actividades.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -56,7 +56,7 @@ const DesarrollarElCronograma = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Salida - Atributos de Actividades.pdf"
+        data="/docs/Salida - Atributos de Actividades.pdf"
       />
     </div>
     <p className="titulo">Herramientas</p>
@@ -72,14 +72,14 @@ const DesarrollarElCronograma = () => {
     </p>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/ruta_critica.png"
+        src="/images/ruta_critica.png"
         alt="analisi de alternativas"
         className="contenedor_informacion_img_80"
       />
     </div>
     <div className="contenedor_imagen_blog">
       <img
-        src="../../src/images/imagen ruta critica.jpeg"
+        src="/images/imagen ruta critica.jpeg"
         alt="analisi de alternativas"
         className="contenedor_informacion_img"
       />
@@ -88,7 +88,7 @@ const DesarrollarElCronograma = () => {
     <p className="subtitulo">Linea base del cronograma</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/linea-base-del-cronograma.pdf"
+        href="/docs/linea-base-del-cronograma.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -97,7 +97,7 @@ const DesarrollarElCronograma = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/linea-base-del-cronograma.pdf"
+        data="/docs/linea-base-del-cronograma.pdf"
       />
     </div>
     <p className="subtitulo">Cronograma del proyecto</p>
@@ -123,7 +123,7 @@ const DesarrollarElCronograma = () => {
     <p className="subtitulo">Cronograma de actividades del proyecto</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/Salida - Cronograma de Actividades.pdf"
+        href="/docs/Salida - Cronograma de Actividades.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -132,7 +132,7 @@ const DesarrollarElCronograma = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/Salida - Cronograma de Actividades.pdf"
+        data="/docs/Salida - Cronograma de Actividades.pdf"
       />
     </div>
   </div>

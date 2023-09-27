@@ -11,7 +11,7 @@ const EstimarLaDuracionDeLasActividades = () => {
     <p className="subtitulo">Plan para la dirección del proyecto</p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/plan para la dirección de proyectos.pdf"
+        href="/docs/plan para la dirección de proyectos.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -20,7 +20,7 @@ const EstimarLaDuracionDeLasActividades = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/plan para la dirección de proyectos.pdf"
+        data="/docs/plan para la dirección de proyectos.pdf"
       />
     </div>
     <p className="subtitulo">Factores ambientales y Activos</p>
@@ -32,7 +32,7 @@ const EstimarLaDuracionDeLasActividades = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/FACTORES AMBIENTALES.pdf"
+        href="/docs/FACTORES AMBIENTALES.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -41,7 +41,7 @@ const EstimarLaDuracionDeLasActividades = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/FACTORES AMBIENTALES.pdf"
+        data="/docs/FACTORES AMBIENTALES.pdf"
       />
     </div>
     <p className="titulo">Herramientas</p>
@@ -58,7 +58,7 @@ const EstimarLaDuracionDeLasActividades = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/TESIS 1.pdf"
+        href="/docs/TESIS 1.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -67,7 +67,7 @@ const EstimarLaDuracionDeLasActividades = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/TESIS 1.pdf"
+        data="/docs/TESIS 1.pdf"
       />
     </div>
     <p className="subtitulo">Estimación por tres valores</p>
@@ -104,7 +104,7 @@ const EstimarLaDuracionDeLasActividades = () => {
     </p>
     <div className="contenedor_pdf">
       <a
-        href="../../src/docs/ESTIMACION.pdf"
+        href="/docs/ESTIMACION.pdf"
         className="enlace_pdf"
         target="_blank"
       >
@@ -113,7 +113,7 @@ const EstimarLaDuracionDeLasActividades = () => {
       <object
         className="pdfview"
         type="application/pdf"
-        data="../../src/docs/ESTIMACION.pdf"
+        data="/docs/ESTIMACION.pdf"
       />
     </div>
   </div>

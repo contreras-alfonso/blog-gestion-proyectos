@@ -27,7 +27,7 @@ const AnalisisDeInteresados = () => {
                 <p className="subtitulo">Factores ambientales y Activos</p>
                 <div className="contenedor_pdf">
                 <a
-                    href="../src/docs/FACTORES AMBIENTALES.pdf"
+                    href="/docs/FACTORES AMBIENTALES.pdf"
                     className="enlace_pdf"
                     target="_blank"
                 >
@@ -36,13 +36,13 @@ const AnalisisDeInteresados = () => {
                 <object
                     className="pdfview"
                     type="application/pdf"
-                    data="../src/docs/FACTORES AMBIENTALES.pdf"
+                    data="/docs/FACTORES AMBIENTALES.pdf"
                 />
                 </div>
                 <p className="subtitulo">Lista de interesados</p>
                 <div className="contenedor_imagen_blog">
                 <img
-                    src="public/images/lista_interesados.png"
+                    src="/images/lista_interesados.png"
                     alt="lista de interesado"
                     className="contenedor_informacion_img_70"
                 />
@@ -57,17 +57,17 @@ const AnalisisDeInteresados = () => {
                 </p>
                 <div className="contenedor_imagen_blog">
                 <img
-                    src="/public/images/clasificacion_cubo_interesados.png"
+                    src="/images/clasificacion_cubo_interesados.png"
                     alt="clasificacion cubo de interesados"
                     className="contenedor_informacion_img_70"
                 />
                 </div>
-                {/* <div class="contenedor_imagen_blog"><img src="../src/images/cubo_interesados.png" alt="" class="contenedor_informacion_img_small"></div> */}
+                {/* <div class="contenedor_imagen_blog"><img src="/images/cubo_interesados.png" alt="" class="contenedor_informacion_img_small"></div> */}
                 <p className="titulo">Salidas</p>
                 <p className="subtitulo">Clasificación de interesados</p>
                 <div className="contenedor_imagen_blog">
                 <img
-                    src="../src/images/clasificacion_interesados.png"
+                    src="/images/clasificacion_interesados.png"
                     alt=""
                     className="contenedor_informacion_img"
                 />
