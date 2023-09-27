@@ -48,7 +48,7 @@ const Index = () => {
         </section>
         <div className="contenedor_empresa" id="empresa">
             <div className="container_imagen_vivero">
-            <img src="src/images/vivero_imagen.jpg" alt="imagen_vivero" />
+            <img src="/images/vivero_imagen.jpg" alt="imagen_vivero" />
             </div>
             <div className="container_empresa_descripcion">
             <h3>Vivero "La casa de plantas y flores"</h3>
@@ -104,7 +104,7 @@ const Index = () => {
             </div>
             </div>
             <div className="contenedor_proyecto_btnActa">
-            <a href="src/docs/Acta de Constitución del Proyecto.docx" download="">
+            <a href="/docs/Acta de Constitución del Proyecto.docx" download="">
                 <button className="btn btn_descargar_acta">
                 Descargar acta constitutiva
                 </button>
@@ -116,25 +116,25 @@ const Index = () => {
             <div className="contenedor_nosotros_card">
             <div className="card_nosotros">
                 <div className="container_img_perfil">
-                <img src="src/images/vera.jpg" alt="" className="img_perfil" />
+                <img src="/images/vera.jpg" alt="" className="img_perfil" />
                 </div>
                 <p className="card_nombre_integrante">Vera Rodriguez José</p>
             </div>
             <div className="card_nosotros">
                 <div className="container_img_perfil">
-                <img src="src/images/contreras.jpg" alt="" className="img_perfil" />
+                <img src="/images/contreras.jpg" alt="" className="img_perfil" />
                 </div>
                 <p className="card_nombre_integrante">Contreras Gómez Paulino</p>
             </div>
             <div className="card_nosotros">
                 <div className="container_img_perfil">
-                <img src="src/images/motta.jpg" alt="" className="img_perfil" />
+                <img src="/images/motta.jpg" alt="" className="img_perfil" />
                 </div>
                 <p className="card_nombre_integrante">Motta Mendoza Miguel</p>
             </div>
             <div className="card_nosotros">
                 <div className="container_img_perfil">
-                <img src="src/images/alva.jpg" alt="" className="img_perfil" />
+                <img src="/images/alva.jpg" alt="" className="img_perfil" />
                 </div>
                 <p className="card_nombre_integrante">Alva Chanta Edson</p>
             </div>
