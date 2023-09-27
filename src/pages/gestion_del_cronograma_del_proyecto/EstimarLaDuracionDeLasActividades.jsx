@@ -45,31 +45,7 @@ const EstimarLaDuracionDeLasActividades = () => {
       />
     </div>
     <p className="titulo">Herramientas</p>
-    <p className="subtitulo">Estimación análoga</p>
-    <p className="parrafo">
-      Técnica para estimar la duración o el costo de una actividad o de un
-      proyecto utilizando datos históricos de una actividad o proyecto similar.
-      La estimación análoga utiliza parámetros de un proyecto anterior similar,
-      tales como duración, presupuesto, tamaño, peso y complejidad, como base
-      para estimar los mismos parámetros o medidas para un proyecto futuro.
-      Cuando se trata de estimar duraciones, esta técnica utiliza la duración
-      real de proyectos similares anteriores como base para estimar la duración
-      del proyecto actual.
-    </p>
-    <div className="contenedor_pdf">
-      <a
-        href="/docs/TESIS 1.pdf"
-        className="enlace_pdf"
-        target="_blank"
-      >
-        Visualizar pdf <i className="fa-solid fa-arrow-up-right-from-square" />
-      </a>
-      <object
-        className="pdfview"
-        type="application/pdf"
-        data="/docs/TESIS 1.pdf"
-      />
-    </div>
+
     <p className="subtitulo">Estimación por tres valores</p>
     <p className="parrafo">
       La exactitud de las estimaciones de la duración por un único valor puede
