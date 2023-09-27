@@ -42,8 +42,8 @@ const AnalisisDeInteresados = () => {
                 <p className="subtitulo">Lista de interesados</p>
                 <div className="contenedor_imagen_blog">
                 <img
-                    src="../src/images/lista_interesados.png"
-                    alt=""
+                    src="public/images/lista_interesados.png"
+                    alt="lista de interesado"
                     className="contenedor_informacion_img_70"
                 />
                 </div>
@@ -57,8 +57,8 @@ const AnalisisDeInteresados = () => {
                 </p>
                 <div className="contenedor_imagen_blog">
                 <img
-                    src="../src/images/clasificacion_cubo_interesados.png"
-                    alt=""
+                    src="/public/images/clasificacion_cubo_interesados.png"
+                    alt="clasificacion cubo de interesados"
                     className="contenedor_informacion_img_70"
                 />
                 </div>
