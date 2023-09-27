@@ -19,6 +19,7 @@ import PlanificarLaGestionDeLosCostos from './pages/gestion_de_los_costos_del_pr
 import EstimarLosCostos from './pages/gestion_de_los_costos_del_proyecto/EstimarLosCostos';
 import DeterminarElPresupuesto from './pages/gestion_de_los_costos_del_proyecto/DeterminarElPresupuesto';
 import CrearLaEdtWbs from './pages/gestion_del_alcance_del_proyecto/CrearLaEdtWbs';
+import AnalisisDeAlternativas from './pages/procesos_de_inicio/AnalisisDeAlternativas';
 
 
 const router = createBrowserRouter([
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "analisis_de_los_interesados",
         element: <AnalisisDeInteresados/>,
+      },
+      {
+        path: "analisis_de_alternativas",
+        element: <AnalisisDeAlternativas/>,
       },
       {
         path: "analisis_de_problemas_y_objetivos",

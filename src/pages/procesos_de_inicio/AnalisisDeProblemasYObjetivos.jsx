@@ -3,7 +3,7 @@ import React from 'react'
 const AnalisisDeProblemasYObjetivos = () => {
   return (
     <>
-    <h1 className='titulo_blog'>3. Análisis de problemas y objetivos</h1>
+    <h1 className='titulo_blog'>4. Análisis de problemas y objetivos</h1>
     <div className="contenedor_blog">
 
   <div className="contenedor_informacion_2">

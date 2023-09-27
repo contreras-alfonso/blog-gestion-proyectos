@@ -37,8 +37,9 @@ const Navegacion = () => {
                     <li>
                         <a href="/procesos_de_inicio/desarrollar_el_acta_de_consitucion">1. Desarrollar el acta de constitución</a>
                         <a href="/procesos_de_inicio/analisis_de_los_interesados">2. Análisis de interesados</a>
-                        <a href="/procesos_de_inicio/analisis_de_problemas_y_objetivos">3. Análisis de problemas y objetivos</a>
-                        <a href="/procesos_de_inicio/matriz_de_marco_logico">4. Matriz de marco lógico</a>
+                        <a href="/procesos_de_inicio/analisis_de_alternativas">3. Análisis de alternativas</a>
+                        <a href="/procesos_de_inicio/analisis_de_problemas_y_objetivos">4. Análisis de problemas y objetivos</a>
+                        <a href="/procesos_de_inicio/matriz_de_marco_logico">5. Matriz de marco lógico</a>
 
                     </li>
                 </ul>
