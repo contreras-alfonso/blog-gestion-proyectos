@@ -94,7 +94,7 @@ const router = createBrowserRouter([
         element: <SecuenciarLasActividades/>,
       },
       {
-        path: "estimar_la_duración_de_las_actividades",
+        path: "estimar_la_duracion_de_las_actividades",
         element: <EstimarLaDuracionDeLasActividades/>,
       },
       {
