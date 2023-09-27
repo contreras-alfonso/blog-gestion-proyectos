@@ -67,13 +67,9 @@ const DesarrollarActaConstitucion = () => {
     </div>
     <p className="titulo">Salida</p>
     <p className="subtitulo">Acta de constitución del proyecto</p>
-    <div className="contenedor_imagen_blog">
-      <img
-        src="/images/acta_constitucion.png"
-        alt=""
-        className="contenedor_informacion_img_80"
-      />
-    </div>
+    <p className="parrafo">
+    El Acta de Constitución de un proyecto es un documento fundamental en la gestión de proyectos que se utiliza para autorizar oficialmente el inicio de un proyecto.  El acta de constitución establece la base y la autoridad para el proyecto y proporciona una visión general de alto nivel de lo que se espera lograr en el proyecto
+    </p>
     <div className="contenedor_proyecto_btnActa">
             <a href="/docs/Acta de Constitución del Proyecto.docx" download="">
                 <button className="btn btn_black">

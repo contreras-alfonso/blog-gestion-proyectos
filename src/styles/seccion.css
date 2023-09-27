@@ -524,6 +524,7 @@ height: 260px;
     flex-direction: column;
     background-color: rgb(238, 246, 242);
     background-color: rgb(16, 112, 101);
+    background-color: var(--color-primario);
     margin-top: 20px;
 
 }
