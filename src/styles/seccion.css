@@ -552,6 +552,7 @@ height: 260px;
     position: fixed;
     bottom: 0;
     right: 0;
+    z-index: 100;
 }
 
 .bloque_sidebar{
@@ -586,6 +587,7 @@ height: 260px;
 
 .sidebar ul {
     list-style: none;
+    margin-bottom: 50px;
 }
 
 .sidebar ul li {
@@ -601,6 +603,7 @@ height: 260px;
     align-items: center;
     font-size: 14px;
     margin-top: 5px;
+    background-color: rgb(241, 241, 241);
 }
 
 .sidebar .lista:hover{
@@ -611,7 +614,7 @@ height: 260px;
 
 
 .sidebar .lista_activa{
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(216, 216, 216);
 }
 
 .sidebar .container_sidebar .subseccion{
