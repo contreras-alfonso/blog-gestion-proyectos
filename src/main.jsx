@@ -20,6 +20,7 @@ import EstimarLosCostos from './pages/gestion_de_los_costos_del_proyecto/Estimar
 import DeterminarElPresupuesto from './pages/gestion_de_los_costos_del_proyecto/DeterminarElPresupuesto';
 import CrearLaEdtWbs from './pages/gestion_del_alcance_del_proyecto/CrearLaEdtWbs';
 import AnalisisDeAlternativas from './pages/procesos_de_inicio/AnalisisDeAlternativas';
+import { ActividadSesion } from './pages/actividad_sesiones/ActividadSesion';
 
 
 const router = createBrowserRouter([
@@ -119,6 +120,17 @@ const router = createBrowserRouter([
       {
         path: "determinar_el_presupuesto",
         element: <DeterminarElPresupuesto/>,
+      },
+    ],
+  },
+
+  {
+    path: "/sesion",
+    element: <Blog/>,
+    children: [
+      {
+        path: "actividad_sesion",
+        element: <ActividadSesion/>,
       },
     ],
   },

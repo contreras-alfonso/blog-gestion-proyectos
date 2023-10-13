@@ -14,6 +14,7 @@ const Navegacion = ({navegacion,setNavegacion}) => {
     const [gestionDelAlcanceDelProyecto,setGestionDelAlcanceDelProyecto] = useState(false);
     const [gestionDeCronogramaDelProyecto,setGestionDeCronogramaDelProyecto] = useState(false);
     const [gestionDeLosCostosDelProyecto,setGestionDeLosCostosDelProyecto] = useState(false);
+    const [actividadSesion,setActividadSesion] = useState(false);
 
     const rutas = [
         {
@@ -113,6 +114,19 @@ const Navegacion = ({navegacion,setNavegacion}) => {
                 {
                     procesoRuta: "determinar_el_presupuesto",
                     procesoNombre: "3. Determinar el presupuesto",
+                },
+            ]
+        },
+
+        {
+            fase:"sesion",
+            nombreFase: "Sesión 6. Actividad",
+            state: actividadSesion,
+            setState: setActividadSesion,
+            subprocesos:[
+                {
+                    procesoRuta: "actividad_sesion",
+                    procesoNombre: "1. Actividad grupal",
                 },
             ]
         },
