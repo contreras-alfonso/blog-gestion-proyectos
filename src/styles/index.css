@@ -10,16 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar{
-        background-color: transparent;
-        width: 0px;
-    }
 
-    body::-webkit-scrollbar-thumb{
-
-        background-color: transparent;
-        border-radius: 5px;
-    }
 
 div.menu{
     background-color: black;

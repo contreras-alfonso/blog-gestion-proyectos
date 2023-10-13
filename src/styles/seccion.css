@@ -13,15 +13,7 @@
     --color-bg-body: #e3e3e3;
 }
 
-body::-webkit-scrollbar{
-    background-color: white;
-    width: 3px;
-}
 
-body::-webkit-scrollbar-thumb{
-    background-color: #252830;
-    border-radius: 0px;
-}
 
 body{
     background-color: var(--color-bg-body);
@@ -29,7 +21,6 @@ body{
 
 a{
     text-decoration: none;
-    color: var(--color_texto);
 }
 
 .nombre_stake{
@@ -46,8 +37,9 @@ a{
     align-items: center;
     background-color:white;
     color: white;
-    padding: 20px 40px;
+    padding: 20px 20px;
     transition: all 500ms;
+    
     
 }
 
@@ -56,6 +48,7 @@ a{
     align-items: center;
     justify-content: center;
     gap: 0 30px;
+  
 }
 
 .header_titulo{
@@ -70,8 +63,9 @@ a{
 }
 
 .header_enlace{
-    color: black;
-    font-size: 25px;
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+    cursor: pointer;
 }
 
 
@@ -491,7 +485,7 @@ height: 260px;
     display: flex;
 }
 
-/*-----------*/
+
 .contenedor_img_marco_logico{
     width: 100%;
     margin: 0;
@@ -549,6 +543,119 @@ height: 260px;
     padding: 10px 0;
 
 }
+
+/*------SIDEBAR........*/
+
+.contenedor_padre_sidebar{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.bloque_sidebar{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #000000cc;
+    cursor: pointer;
+}
+
+.sidebar{
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 100ms;
+}
+
+.w-350{
+    width: 350px;
+    padding: 25px;
+}
+
+.w-0{
+    width: 0px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    justify-content: space-between;
+}
+
+.sidebar .lista{
+    padding: 15px 20px;
+    transition: all 300ms;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.sidebar .lista:hover{
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.sidebar .lista_activa{
+    background-color: rgb(241, 241, 241);
+}
+
+.sidebar .container_sidebar .subseccion{
+    margin: 5px 0 5px 0;
+}
+
+.none{
+    display: none;
+}
+.sidebar .container_sidebar .subseccion li{
+    border-radius: 10px;
+}
+.sidebar .container_sidebar .subseccion li a{
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+.sidebar .container_sidebar .subseccion li a{
+    display: block;
+}
+
+.sidebar .container_sidebar .subseccion .subseccionActiva{
+    background-color: rgb(241, 241, 241);
+}
+
+.sidebar .container_sidebar .subseccion li:hover{
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+.header_fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+
+/*------SIDEBAR......../*/
+
 
 @keyframes slideLeft{
     0%{

@@ -1,12 +1,126 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation, useParams } from 'react-router-dom';
 
-const Navegacion = () => {
+const Navegacion = ({navegacion,setNavegacion}) => {
 
     const [fixed,setFixed] = useState(false);
     const [fase,setFase] = useState('');
     const [proceso,setProceso] = useState('');
     const {pathname} = useLocation();
+
+    /* states */
+
+    const [procesosDeInicio,setProcesosDeInicio] = useState(false);
+    const [gestionDelAlcanceDelProyecto,setGestionDelAlcanceDelProyecto] = useState(false);
+    const [gestionDeCronogramaDelProyecto,setGestionDeCronogramaDelProyecto] = useState(false);
+    const [gestionDeLosCostosDelProyecto,setGestionDeLosCostosDelProyecto] = useState(false);
+
+    const rutas = [
+        {
+            fase: "procesos_de_inicio",
+            nombreFase: "Procesos de inicio",
+            state: procesosDeInicio,
+            setState: setProcesosDeInicio,
+            subprocesos:[
+                {
+                    procesoRuta: "desarrollar_el_acta_de_consitucion",
+                    procesoNombre: "1. Desarrollar el acta de constitución",
+                },
+                {
+                    procesoRuta: "analisis_de_los_interesados",
+                    procesoNombre: "2. Análisis de interesados",
+                },
+                {
+                    procesoRuta: "analisis_de_alternativas",
+                    procesoNombre: "3. Análisis de alternativas",
+                },
+                {
+                    procesoRuta: "analisis_de_problemas_y_objetivos",
+                    procesoNombre: "4. Análisis de problemas y objetivos",
+                },
+                {
+                    procesoRuta: "matriz_de_marco_logico",
+                    procesoNombre: "5. Matriz de marco lógico",
+                },
+            ]
+        },
+        {
+            fase:"gestion_del_alcance_del_proyecto",
+            nombreFase: "Gestión del alcance del proyecto",
+            state: gestionDelAlcanceDelProyecto,
+            setState: setGestionDelAlcanceDelProyecto,
+            subprocesos:[
+                {
+                    procesoRuta: "planificar_la_gestion_del_alcance",
+                    procesoNombre: "1. Planificar la gestión del alcance",
+                },
+                {
+                    procesoRuta: "recopilar_requisitos",
+                    procesoNombre: "2. Recopilar requisitos",
+                },
+                {
+                    procesoRuta: "definir_el_alcance",
+                    procesoNombre: "3. Definir el alcance",
+                },
+                {
+                    procesoRuta: "crear_la_edt_wbs",
+                    procesoNombre: "4. Crear la EDT/WBS",
+                },
+            ]
+        },
+        {
+            fase:"gestion_del_cronograma_del_proyecto",
+            nombreFase: "Gestión del cronograma del proyecto",
+            state: gestionDeCronogramaDelProyecto,
+            setState: setGestionDeCronogramaDelProyecto,
+            subprocesos:[
+                {
+                    procesoRuta: "planificar_la_gestion_del_cronograma",
+                    procesoNombre: "1. Planificar la gestión del cronograma",
+                },
+                {
+                    procesoRuta: "definir_las_actividades",
+                    procesoNombre: "2. Definir las actividades",
+                },
+                {
+                    procesoRuta: "secuenciar_las_actividades",
+                    procesoNombre: "3. Secuenciar las actividades",
+                },
+                {
+                    procesoRuta: "estimar_la_duracion_de_las_actividades",
+                    procesoNombre: "4. Estimar la duración de las actividades",
+                },
+                {
+                    procesoRuta: "desarrollar_el_cronograma",
+                    procesoNombre: "5. Desarrollar el cronograma",
+                },
+            ]
+        },
+        {
+            fase:"gestion_de_los_costos_del_proyecto",
+            nombreFase: "Gestión de los costos del proyecto",
+            state: gestionDeLosCostosDelProyecto,
+            setState: setGestionDeLosCostosDelProyecto,
+            subprocesos:[
+                {
+                    procesoRuta: "planificar_la_gestion_de_los_costos",
+                    procesoNombre: "1. Planificar la gestión de los costos",
+                },
+                {
+                    procesoRuta: "estimar_los_costos",
+                    procesoNombre: "2. Estimar los costos",
+                },
+                {
+                    procesoRuta: "determinar_el_presupuesto",
+                    procesoNombre: "3. Determinar el presupuesto",
+                },
+            ]
+        },
+    ]
+
+
+
+
 
     useEffect(()=>{
         const locationArr = pathname.split('/');
@@ -26,72 +140,34 @@ const Navegacion = () => {
 
   return (
     <>
-    <nav className={`navbar_blog ${fixed ? 'fixed' : ''}`}>
-        <ul>
-            
-            <li>
-                <a className={`${fase=='procesos_de_inicio' && 'seccion_activa'}`} href="#">
-                    Procesos de inicio
-                </a>
-                <ul>
-                    <li>
-                        <a href="/procesos_de_inicio/desarrollar_el_acta_de_consitucion" className={`${proceso==='desarrollar_el_acta_de_consitucion' ?  'seccion_activa' : ''}`} >1. Desarrollar el acta de constitución</a>
-                        <a href="/procesos_de_inicio/analisis_de_los_interesados" className={`${proceso==='analisis_de_los_interesados' ?  'seccion_activa' : ''}`} >2. Análisis de interesados</a>
-                        <a href="/procesos_de_inicio/analisis_de_alternativas" className={`${proceso==='analisis_de_alternativas' ?  'seccion_activa' : ''}`} >3. Análisis de alternativas</a>
-                        <a href="/procesos_de_inicio/analisis_de_problemas_y_objetivos" className={`${proceso==='analisis_de_problemas_y_objetivos' ?  'seccion_activa' : ''}`} >4. Análisis de problemas y objetivos</a>
-                        <a href="/procesos_de_inicio/matriz_de_marco_logico" className={`${proceso==='matriz_de_marco_logico' ?  'seccion_activa' : ''}`} >5. Matriz de marco lógico</a>
+        <div className={`contenedor_padre_sidebar ${!navegacion && 'w-0'}`}>
 
-                    </li>
+            <div onClick={()=>{setNavegacion(!navegacion)}} className={`bloque_sidebar ${!navegacion && 'none'}`}>
+
+            </div>
+            <nav className={`sidebar ${navegacion ? 'w-350' : 'w-0'}`}>
+                <ul className={`${navegacion ? '' : 'none'}`}>
+                    {rutas.map(e=>{
+                        return (
+                        <div key={e.fase} className={`container_sidebar`}>
+                            <li onClick={()=>{e.setState(!e.state)}} className={`lista ${e.fase === fase && 'lista_activa'}`}>
+                                <p className={`${fase === e.fase && ''}`}>{e.nombreFase}</p>
+                                {
+                                    e.state === true ? (<i class="fa-sharp fa-solid fa-chevron-up"></i>) : (<i className="fa-solid fa-chevron-down"></i>)
+                                }
+                            </li>
+                            <ul className={`subseccion ${!e.state && 'none'}`}>
+                            {e.subprocesos.map(subproceso=>{return(
+                                <li onClick={()=>{setNavegacion(!navegacion)}} className={`${subproceso.procesoRuta === proceso && 'subseccionActiva'}`} key={subproceso.procesoNombre}><a href={`/${e.fase}/${subproceso.procesoRuta}`}>{subproceso.procesoNombre}</a></li>
+                            )})}
+                            </ul>
+                        </div>
+                        )
+                    })}
                 </ul>
-            </li>
+            </nav>
+        </div>
 
-            <li>
-                <a className={`${fase=='gestion_del_alcance_del_proyecto' && 'seccion_activa'}`} href="#">
-                    Gestión del alcance del proyecto
-                </a>
-                <ul>
-                    <li>
-                        <a href="/gestion_del_alcance_del_proyecto/planificar_la_gestion_del_alcance" className={`${proceso==='planificar_la_gestion_del_alcance' ?  'seccion_activa' : ''}`} >1. Planificar la gestión del alcance</a>
-                        <a href="/gestion_del_alcance_del_proyecto/recopilar_requisitos" className={`${proceso==='recopilar_requisitos' ?  'seccion_activa' : ''}`} >2. Recopilar requisitos</a>
-                        <a href="/gestion_del_alcance_del_proyecto/definir_el_alcance" className={`${proceso==='definir_el_alcance' ?  'seccion_activa' : ''}`} >3. Definir el alcance</a>
-                        <a href="/gestion_del_alcance_del_proyecto/crear_la_edt_wbs" className={`${proceso==='crear_la_edt_wbs' ?  'seccion_activa' : ''}`} >4. Crear la EDT/WBS</a>
-
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <a className={`${fase=='gestion_del_cronograma_del_proyecto' && 'seccion_activa'}`} href="#">
-                    Gestión de cronograma del proyecto
-                </a>
-                <ul>
-                    <li>
-                        <a href="/gestion_del_cronograma_del_proyecto/planificar_la_gestion_del_cronograma" className={`${proceso==='planificar_la_gestion_del_cronograma' ?  'seccion_activa' : ''}`} >1. Planificar la gestión del cronograma</a>
-                        <a href="/gestion_del_cronograma_del_proyecto/definir_las_actividades" className={`${proceso==='definir_las_actividades' ?  'seccion_activa' : ''}`} >2. Definir las actividades</a>
-                        <a href="/gestion_del_cronograma_del_proyecto/secuenciar_las_actividades" className={`${proceso==='secuenciar_las_actividades' ?  'seccion_activa' : ''}`} >3. Secuenciar las actividades</a>
-                        <a href="/gestion_del_cronograma_del_proyecto/estimar_la_duracion_de_las_actividades" className={`${proceso==='estimar_la_duracion_de_las_actividades' ?  'seccion_activa' : ''}`} >4. Estimar la duración de las actividades</a>
-                        <a href="/gestion_del_cronograma_del_proyecto/desarrollar_el_cronograma" className={`${proceso==='desarrollar_el_cronograma' ?  'seccion_activa' : ''}`} >5. Desarrollar el cronograma</a>
-
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <a className={`${fase=='gestion_de_los_costos_del_proyecto' && 'seccion_activa'}`} href="#">
-                    Gestión de los costos del proyecto
-                </a>
-                <ul>
-                    <li>
-                        <a href="/gestion_de_los_costos_del_proyecto/planificar_la_gestion_de_los_costos" className={`${proceso==='planificar_la_gestion_de_los_costos' ?  'seccion_activa' : ''}`} >1. Planificar la gestión de los costos</a>
-                        <a href="/gestion_de_los_costos_del_proyecto/estimar_los_costos" className={`${proceso==='estimar_los_costos' ?  'seccion_activa' : ''}`} >2. Estimar los costos</a>
-                        <a href="/gestion_de_los_costos_del_proyecto/determinar_el_presupuesto" className={`${proceso==='determinar_el_presupuesto' ?  'seccion_activa' : ''}`} >3. Determinar el presupuesto</a>
-
-                    </li>
-                </ul>
-            </li>
-
-        </ul>
-        </nav>
     </>
   )
 }
