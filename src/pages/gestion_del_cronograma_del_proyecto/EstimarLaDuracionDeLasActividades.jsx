@@ -15,7 +15,7 @@ const EstimarLaDuracionDeLasActividades = () => {
         className="enlace_pdf"
         target="_blank"
       >
-        Visualizar pdf <i className="fa-solid fa-arrow-up-right-from-square" />
+         <i className="fa-solid fa-arrow-up-right-from-square" />
       </a>
       <object
         className="pdfview"
@@ -36,7 +36,7 @@ const EstimarLaDuracionDeLasActividades = () => {
         className="enlace_pdf"
         target="_blank"
       >
-        Visualizar pdf <i className="fa-solid fa-arrow-up-right-from-square" />
+         <i className="fa-solid fa-arrow-up-right-from-square" />
       </a>
       <object
         className="pdfview"
@@ -84,7 +84,7 @@ const EstimarLaDuracionDeLasActividades = () => {
         className="enlace_pdf"
         target="_blank"
       >
-        Visualizar pdf <i className="fa-solid fa-arrow-up-right-from-square" />
+         <i className="fa-solid fa-arrow-up-right-from-square" />
       </a>
       <object
         className="pdfview"

@@ -14,9 +14,9 @@ const Blog = () => {
 
         <Outlet/>
 
-        <footer className="footer_blog">
+        {/* <footer className="footer_blog">
             <p>Gestión de proyectos de TI</p>
-        </footer>
+        </footer> */}
     </>
   )
 }
