@@ -575,6 +575,7 @@ height: 260px;
     overflow-y: auto;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: all 100ms;
+    border-radius: 0px 15px 10px 0;
 }
 
 .w-350{
