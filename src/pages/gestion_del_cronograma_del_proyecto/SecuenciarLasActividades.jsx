@@ -1,4 +1,5 @@
 import React from 'react'
+import { ContenedorDoc } from '../../components/ContenedorDoc'
 
 const SecuenciarLasActividades = () => {
   return (
@@ -91,13 +92,7 @@ const SecuenciarLasActividades = () => {
       incluyendo la secuencia de actividades, las dependencias y las
       interrelaciones entre ellas
     </p>
-    <div className="contenedor_imagen_blog">
-      <img
-        src="/images/Salida - Diagrama de Red del cronograma del proyecto.png "
-        alt="analisi de alternativas"
-        className="contenedor_informacion_img"
-      />
-    </div>
+    <ContenedorDoc doc='Salida - Diagrama de Red del cronograma del proyecto.pdf'/>
   </div>
 </div>
 

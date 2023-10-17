@@ -77,13 +77,13 @@ const DesarrollarElCronograma = () => {
         className="contenedor_informacion_img_80"
       />
     </div>
-    {/* <div className="contenedor_imagen_blog">
+    <div className="contenedor_imagen_blog">
       <img
         src="/images/imagen ruta critica.jpeg"
         alt="analisi de alternativas"
         className="contenedor_informacion_img"
       />
-    </div> */}
+    </div>
     <p className="titulo">Salidas</p>
     <p className="subtitulo">Linea base del cronograma</p>
     <div className="contenedor_pdf">

@@ -462,11 +462,12 @@ height: 260px;
 }
 
 .btn_black{
-    background-color: var(--color-primario);
-    border:none;
-    color: white;
+    border: dashed 1px black;
+    color: black;
+    font-size: 12px;
 }
 .btn_black:hover{
+    border: solid 1px black;
     color: white;
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { ContenedorDoc } from '../../components/ContenedorDoc'
 
 const DeterminarElPresupuesto = () => {
   return (
@@ -100,11 +101,6 @@ const DeterminarElPresupuesto = () => {
         data="/docs/Salida- Presupuesto por tipo Componente y paquete.pdf"
       />
     </div>
-
-
-
-
-
 
   </div>
 </div>
