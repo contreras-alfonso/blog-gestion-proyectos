@@ -21,6 +21,12 @@ import DeterminarElPresupuesto from './pages/gestion_de_los_costos_del_proyecto/
 import CrearLaEdtWbs from './pages/gestion_del_alcance_del_proyecto/CrearLaEdtWbs';
 import AnalisisDeAlternativas from './pages/procesos_de_inicio/AnalisisDeAlternativas';
 import { ActividadSesion } from './pages/actividad_sesiones/ActividadSesion';
+import { IdentificarInteresados } from './pages/gestion_de_los_interesados_del_proyecto/IdentificarInteresados';
+import { PlanificarInvolucramientoInteresados } from './pages/gestion_de_los_interesados_del_proyecto/PlanificarInvolucramientoInteresados';
+import { PrimerEntregable } from './pages/entregables/PrimerEntregable';
+import { ControlDeInvolucramientoDeLosInteresados } from './pages/monitoreo_control/ControlDeInvolucramientoDeLosInteresados';
+import { ControlDelCronograma } from './pages/monitoreo_control/ControlDelCronograma';
+import { ControlDeLosCostos } from './pages/monitoreo_control/ControlDeLosCostos';
 
 
 const router = createBrowserRouter([
@@ -120,6 +126,52 @@ const router = createBrowserRouter([
       {
         path: "determinar_el_presupuesto",
         element: <DeterminarElPresupuesto/>,
+      },
+    ],
+  },
+
+  {
+    path: "/gestion_involucramiento_interesados",
+    element: <Blog/>,
+    children: [
+      {
+        path: "identificar_interesados",
+        element: <IdentificarInteresados/>,
+      },
+      {
+        path: "planificar_involucramiento_interesados",
+        element: <PlanificarInvolucramientoInteresados/>,
+      },
+    ],
+  },
+
+  {
+    path: "/monitoreo_control",
+    element: <Blog/>,
+    children: [
+      {
+        path: "control_de_involucramiento_de_los_interesados",
+        element: <ControlDeInvolucramientoDeLosInteresados/>,
+      },
+      {
+        path: "control_del_cronograma",
+        element: <ControlDelCronograma/>,
+      },
+      {
+        path: "control_del_costos",
+        element: <ControlDeLosCostos/>,
+      },
+    ],
+  },
+
+
+  {
+    path: "/entregables",
+    element: <Blog/>,
+    children: [
+      {
+        path: "primer_entregable",
+        element: <PrimerEntregable/>,
       },
     ],
   },

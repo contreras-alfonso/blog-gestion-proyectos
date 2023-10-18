@@ -15,6 +15,9 @@ const Navegacion = ({navegacion,setNavegacion}) => {
     const [gestionDeCronogramaDelProyecto,setGestionDeCronogramaDelProyecto] = useState(false);
     const [gestionDeLosCostosDelProyecto,setGestionDeLosCostosDelProyecto] = useState(false);
     const [actividadSesion,setActividadSesion] = useState(false);
+    const [monitoreoYControl,setMonitoreoYControl] = useState(false);
+    const [entregables,setEntregables] = useState(false);
+    const [gestionInvolucramientoDeInteresados,setGestionInvolucramientoDeInteresados] = useState(false);
 
     const rutas = [
         {
@@ -114,6 +117,57 @@ const Navegacion = ({navegacion,setNavegacion}) => {
                 {
                     procesoRuta: "determinar_el_presupuesto",
                     procesoNombre: "3. Determinar el presupuesto",
+                },
+            ]
+        },
+
+        {
+            fase:"gestion_involucramiento_interesados",
+            nombreFase: "Gestión de interesados del proyecto",
+            state: gestionInvolucramientoDeInteresados,
+            setState: setGestionInvolucramientoDeInteresados,
+            subprocesos:[
+                {
+                    procesoRuta: "identificar_interesados",
+                    procesoNombre: "1. Identificar interesados",
+                },
+                {
+                    procesoRuta: "planificar_involucramiento_interesados",
+                    procesoNombre: "2. Planificar involucramiento de interesados",
+                },
+            ]
+        },
+
+        {
+            fase:"monitoreo_control",
+            nombreFase: "Monitoreo y control",
+            state: monitoreoYControl,
+            setState: setMonitoreoYControl,
+            subprocesos:[
+                {
+                    procesoRuta: "control_de_involucramiento_de_los_interesados",
+                    procesoNombre: "1. Control de involucramiento de los interesados",
+                },
+                {
+                    procesoRuta: "control_del_cronograma",
+                    procesoNombre: "2. Control del cronograma",
+                },
+                {
+                    procesoRuta: "control_del_costos",
+                    procesoNombre: "3. Control de costos",
+                },
+            ]
+        },
+
+        {
+            fase:"entregables",
+            nombreFase: "Entregables",
+            state: entregables,
+            setState: setEntregables,
+            subprocesos:[
+                {
+                    procesoRuta: "primer_entregable",
+                    procesoNombre: "1. Primer entregable",
                 },
             ]
         },

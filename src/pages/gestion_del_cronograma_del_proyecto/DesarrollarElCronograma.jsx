@@ -70,13 +70,7 @@ const DesarrollarElCronograma = () => {
       en cuenta las limitaciones de recursos, y realiza un análisis que recorre
       hacia adelante y hacia atrás toda la red del cronograma.
     </p>
-    <div className="contenedor_imagen_blog">
-      <img
-        src="/images/ruta_critica.png"
-        alt="analisi de alternativas"
-        className="contenedor_informacion_img_80"
-      />
-    </div>
+
     <div className="contenedor_imagen_blog">
       <img
         src="/images/imagen ruta critica.jpeg"
@@ -118,6 +112,15 @@ const DesarrollarElCronograma = () => {
         href="https://sharing.clickup.com/9008198761/g/8cewd39-265/gantt"
       >
         https://sharing.clickup.com/9008198761/g/8cewd39-265/gantt
+      </a>
+    </p>
+    <p className="enlace">
+      <a
+        className="enlace_d"
+        target="_blank"
+        href="https://untels409760.monday.com/boards/5344979651"
+      >
+        https://untels409760.monday.com/boards/5344979651
       </a>
     </p>
     <p className="subtitulo">Cronograma de actividades del proyecto</p>
