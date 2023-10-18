@@ -19,9 +19,11 @@ export const PlanificarInvolucramientoInteresados = () => {
             
             <p className="titulo">Herramientas</p>
             <p className="subtitulo">Análisis de datos</p>
+            <ContenedorDoc doc='salida - interesados cubo.pdf'/>
 
             <p className="titulo">Salidas</p>
             <p className="subtitulo">Plan de involucramiento de los interesados</p>
+            <ContenedorDoc doc='PLAN DE GESTION DE INTERESADOS DEL PROEYCTO.pdf'/>
 
         </div>
 

@@ -221,7 +221,7 @@ const Navegacion = ({navegacion,setNavegacion}) => {
                             <li onClick={()=>{e.setState(!e.state)}} className={`lista ${e.fase === fase && 'lista_activa'}`}>
                                 <p className={`${fase === e.fase && ''}`}>{e.nombreFase}</p>
                                 {
-                                    e.state === true ? (<i class="fa-sharp fa-solid fa-chevron-up"></i>) : (<i className="fa-solid fa-chevron-down"></i>)
+                                    e.state === true ? (<i className="fa-sharp fa-solid fa-chevron-up"></i>) : (<i className="fa-solid fa-chevron-down"></i>)
                                 }
                             </li>
                             <ul className={`subseccion ${!e.state && 'none'}`}>

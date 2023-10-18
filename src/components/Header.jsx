@@ -20,7 +20,7 @@ export const Header = () => {
   return (
     <>
         <header className={`header ${headerFixed && 'header_fixed'}`}>
-            <i onClick={()=>{setNavegacion(!navegacion)}} class="fa-solid fa-bars header_enlace"></i>
+            <i onClick={()=>{setNavegacion(!navegacion)}} className="fa-solid fa-bars header_enlace"></i>
             <div className="header_enlaces_blog">
                 <a href="/">
                 <i className="fa-duotone fa-house header_enlace" />
