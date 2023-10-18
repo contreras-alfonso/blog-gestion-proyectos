@@ -243,7 +243,10 @@ a{
 }
 
 .contenedor_imagen_blog{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .check-verde{
     color: rgb(30, 199, 30);
@@ -584,7 +587,7 @@ height: 260px;
 }
 
 .w-350{
-    width: 350px;
+    width: 400px;
     padding: 25px;
 }
 
