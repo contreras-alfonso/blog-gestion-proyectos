@@ -1,4 +1,5 @@
 import React from 'react'
+import { ContenedorDoc } from '../../components/ContenedorDoc'
 
 export const PlanificarInvolucramientoInteresados = () => {
   return (
@@ -9,8 +10,11 @@ export const PlanificarInvolucramientoInteresados = () => {
             <p className="titulo">Entradas</p>
 
             <p className="subtitulo">Acta de constitucion</p>
+            <ContenedorDoc doc='Acta de constitucion del proyecto.pdf'/>
             <p className="subtitulo">Plan de direccion de proyecto</p>
+            <ContenedorDoc doc='plan para la dirección de proyectos.pdf'/>
             <p className="subtitulo">Factores ambientales y activos</p>
+            <ContenedorDoc doc='FACTORES AMBIENTALES.pdf'/>
             <p className="subtitulo">Documentos del proyecto</p>
             
             <p className="titulo">Herramientas</p>
