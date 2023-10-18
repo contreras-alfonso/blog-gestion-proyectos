@@ -15,7 +15,6 @@ export const PlanificarInvolucramientoInteresados = () => {
             <ContenedorDoc doc='plan para la dirección de proyectos.pdf'/>
             <p className="subtitulo">Factores ambientales y activos</p>
             <ContenedorDoc doc='FACTORES AMBIENTALES.pdf'/>
-            <p className="subtitulo">Documentos del proyecto</p>
             
             <p className="titulo">Herramientas</p>
             <p className="subtitulo">Análisis de datos</p>
