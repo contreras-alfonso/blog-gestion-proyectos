@@ -3,7 +3,7 @@ import React from 'react'
 const DefinirLasActividades = () => {
   return (
     <>
-    <h1 className='titulo_blog'>2. Definir las actividades</h1>
+    <h1 className='titulo_blog'>Definir las actividades</h1>
     <div className="contenedor_blog">
 
   <div className="contenedor_informacion_2">

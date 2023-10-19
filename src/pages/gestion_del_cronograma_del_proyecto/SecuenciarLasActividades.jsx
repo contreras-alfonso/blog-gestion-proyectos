@@ -4,7 +4,7 @@ import { ContenedorDoc } from '../../components/ContenedorDoc'
 const SecuenciarLasActividades = () => {
   return (
     <>
-    <h1 className='titulo_blog'>3. Secuenciar las actividades</h1>
+    <h1 className='titulo_blog'>Secuenciar las actividades</h1>
     <div className="contenedor_blog">
   <div className="contenedor_informacion_2">
     <p className="titulo">Entradas</p>

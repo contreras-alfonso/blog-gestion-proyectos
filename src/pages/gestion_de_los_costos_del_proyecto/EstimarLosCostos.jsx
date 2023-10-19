@@ -3,7 +3,7 @@ import React from 'react'
 const EstimarLosCostos = () => {
   return (
     <>
-    <h1 className='titulo_blog'>2. Estimar los costos</h1>
+    <h1 className='titulo_blog'>Estimar los costos</h1>
     <div className="contenedor_blog">
 
   <div className="contenedor_informacion_2">

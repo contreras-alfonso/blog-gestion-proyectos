@@ -10,177 +10,190 @@ const Navegacion = ({navegacion,setNavegacion}) => {
 
     /* states */
 
-    const [procesosDeInicio,setProcesosDeInicio] = useState(false);
-    const [gestionDelAlcanceDelProyecto,setGestionDelAlcanceDelProyecto] = useState(false);
-    const [gestionDeCronogramaDelProyecto,setGestionDeCronogramaDelProyecto] = useState(false);
-    const [gestionDeLosCostosDelProyecto,setGestionDeLosCostosDelProyecto] = useState(false);
-    const [actividadSesion,setActividadSesion] = useState(false);
-    const [monitoreoYControl,setMonitoreoYControl] = useState(false);
+    const [grupoDeProcesosDeInicio,setGrupoDeProcesosDeInicio] = useState(false);
+    const [grupoDeProcesosDePlanificacion,setGrupoDeProcesosDePlanificacion] = useState(false);
+    const [grupoDeProcesosDeEjecucion,setGrupoDeProcesosDeEjecucion] = useState(false);
+    const [grupoDeProcesosDeMonitoreoYControl,setGrupoDeProcesosDeMonitoreoYControl] = useState(false);
+    const [grupoDeProcesosDeCierre,setGrupoDeProcesosDeCierre] = useState(false);
     const [entregables,setEntregables] = useState(false);
-    const [gestionInvolucramientoDeInteresados,setGestionInvolucramientoDeInteresados] = useState(false);
+    const [actividadGrupal,setActividadGrupal] = useState(false);
+
 
     const rutas = [
         {
-            fase: "procesos_de_inicio",
-            nombreFase: "Procesos de inicio",
-            state: procesosDeInicio,
-            setState: setProcesosDeInicio,
+            fase: "grupo_de_procesos_de_inicio",
+            nombreFase: "Grupo de procesos de inicio",
+            state: grupoDeProcesosDeInicio,
+            setState: setGrupoDeProcesosDeInicio,
             subprocesos:[
                 {
                     procesoRuta: "desarrollar_el_acta_de_consitucion",
-                    procesoNombre: "1. Desarrollar el acta de constitución",
+                    procesoNombre: "Desarrollar el acta de constitución del proyecto",
                 },
                 {
-                    procesoRuta: "analisis_de_los_interesados",
-                    procesoNombre: "2. Análisis de interesados",
-                },
-                {
-                    procesoRuta: "analisis_de_alternativas",
-                    procesoNombre: "3. Análisis de alternativas",
-                },
-                {
-                    procesoRuta: "analisis_de_problemas_y_objetivos",
-                    procesoNombre: "4. Análisis de problemas y objetivos",
-                },
-                {
-                    procesoRuta: "matriz_de_marco_logico",
-                    procesoNombre: "5. Matriz de marco lógico",
+                    procesoRuta: "identificar_los_interesados",
+                    procesoNombre: "Identificar los interesados",
                 },
             ]
         },
         {
-            fase:"gestion_del_alcance_del_proyecto",
-            nombreFase: "Gestión del alcance del proyecto",
-            state: gestionDelAlcanceDelProyecto,
-            setState: setGestionDelAlcanceDelProyecto,
+            fase:"grupo_de_procesos_de_planificacion",
+            nombreFase: "Grupo de procesos de planificación",
+            state: grupoDeProcesosDePlanificacion,
+            setState: setGrupoDeProcesosDePlanificacion,
             subprocesos:[
                 {
+                    procesoRuta: "desarrollar_el_plan_para_la_direccion_del_proyecto",
+                    procesoNombre: "Desarrollar el plan para la dirección del proyecto",
+                },
+                {
                     procesoRuta: "planificar_la_gestion_del_alcance",
-                    procesoNombre: "1. Planificar la gestión del alcance",
+                    procesoNombre: "Planificar la gestión del alcance",
                 },
                 {
                     procesoRuta: "recopilar_requisitos",
-                    procesoNombre: "2. Recopilar requisitos",
+                    procesoNombre: "Recopilar requisitos",
                 },
                 {
                     procesoRuta: "definir_el_alcance",
-                    procesoNombre: "3. Definir el alcance",
+                    procesoNombre: "Definir el alcance",
                 },
                 {
                     procesoRuta: "crear_la_edt_wbs",
-                    procesoNombre: "4. Crear la EDT/WBS",
+                    procesoNombre: "Crear la EDT/WBS",
                 },
-            ]
-        },
-        {
-            fase:"gestion_del_cronograma_del_proyecto",
-            nombreFase: "Gestión del cronograma del proyecto",
-            state: gestionDeCronogramaDelProyecto,
-            setState: setGestionDeCronogramaDelProyecto,
-            subprocesos:[
                 {
                     procesoRuta: "planificar_la_gestion_del_cronograma",
-                    procesoNombre: "1. Planificar la gestión del cronograma",
+                    procesoNombre: "Planificar la gestión del cronograma",
                 },
                 {
                     procesoRuta: "definir_las_actividades",
-                    procesoNombre: "2. Definir las actividades",
+                    procesoNombre: "Definir las actividades",
                 },
                 {
                     procesoRuta: "secuenciar_las_actividades",
-                    procesoNombre: "3. Secuenciar las actividades",
+                    procesoNombre: "Secuenciar las actividades",
                 },
                 {
                     procesoRuta: "estimar_la_duracion_de_las_actividades",
-                    procesoNombre: "4. Estimar la duración de las actividades",
+                    procesoNombre: "Estimar la duración de las actividades",
                 },
                 {
                     procesoRuta: "desarrollar_el_cronograma",
-                    procesoNombre: "5. Desarrollar el cronograma",
+                    procesoNombre: "Desarrollar el cronograma",
                 },
-            ]
-        },
-        {
-            fase:"gestion_de_los_costos_del_proyecto",
-            nombreFase: "Gestión de los costos del proyecto",
-            state: gestionDeLosCostosDelProyecto,
-            setState: setGestionDeLosCostosDelProyecto,
-            subprocesos:[
                 {
                     procesoRuta: "planificar_la_gestion_de_los_costos",
-                    procesoNombre: "1. Planificar la gestión de los costos",
+                    procesoNombre: "Planificar la gestión de los costos",
                 },
                 {
                     procesoRuta: "estimar_los_costos",
-                    procesoNombre: "2. Estimar los costos",
+                    procesoNombre: "Estimar los costos",
                 },
                 {
                     procesoRuta: "determinar_el_presupuesto",
-                    procesoNombre: "3. Determinar el presupuesto",
+                    procesoNombre: "Determinar el presupuesto",
+                },
+                {
+                    procesoRuta: "planificar_el_involucramiento_de_los_interesados",
+                    procesoNombre: "Planificar el involucramiento de los interesados",
+                },
+
+
+
+            ]
+        },
+        {
+            fase:"grupo_de_procesos_de_ejecucion",
+            nombreFase: "Grupo de procesos de ejecución",
+            state: grupoDeProcesosDeEjecucion,
+            setState: setGrupoDeProcesosDeEjecucion,
+            subprocesos:[
+                {
+                    procesoRuta: "dirigir_y_gestionar_el_trabajo_del_proyecto",
+                    procesoNombre: "Dirigir y gestionar el trabajo del proyecto",
+                },
+                {
+                    procesoRuta: "gestionar_el_conocimiento_del_proyecto",
+                    procesoNombre: "Gestionar el conocimiento del proyecto",
+                },
+                {
+                    procesoRuta: "gestionar_la_participacion_de_los_interesados",
+                    procesoNombre: "Gestionar la participación de los interesados",
+                },
+
+
+            ]
+        },
+        {
+            fase:"grupo_de_procesos_de_monitoreo_y_control",
+            nombreFase: "Grupo de procesos de monitoreo y control",
+            state: grupoDeProcesosDeMonitoreoYControl,
+            setState: setGrupoDeProcesosDeMonitoreoYControl,
+            subprocesos:[
+                {
+                    procesoRuta: "monitorear_y_controlar_el_trabajo_del_proyecto",
+                    procesoNombre: "Monitorear y controlar el trabajo del proyecto",
+                },
+                {
+                    procesoRuta: "realizar_el_control_integrado_de_cambios",
+                    procesoNombre: "Realizar el control integrado de cambios",
+                },
+                {
+                    procesoRuta: "validar_el_alcance",
+                    procesoNombre: "Validar el alcance",
+                },
+                {
+                    procesoRuta: "controlar_el_alcance",
+                    procesoNombre: "Controlar el alcance",
+                },
+                {
+                    procesoRuta: "controlar_el_cronograma",
+                    procesoNombre: "Controlar el cronograma",
+                },
+                {
+                    procesoRuta: "controlar_los_costos",
+                    procesoNombre: "Controlar los costos",
+                },
+                {
+                    procesoRuta: "monitorear_el_involucramiento_de_los_interesados",
+                    procesoNombre: "Monitorear el involucramiento de los interesados",
                 },
             ]
         },
 
         {
-            fase:"gestion_involucramiento_interesados",
+            fase:"grupo_de_procesos_de_cierre",
             nombreFase: "Gestión de interesados del proyecto",
-            state: gestionInvolucramientoDeInteresados,
-            setState: setGestionInvolucramientoDeInteresados,
+            state: grupoDeProcesosDeCierre,
+            setState: setGrupoDeProcesosDeCierre,
             subprocesos:[
-                {
-                    procesoRuta: "identificar_interesados",
-                    procesoNombre: "1. Identificar interesados",
-                },
-                {
-                    procesoRuta: "planificar_involucramiento_interesados",
-                    procesoNombre: "2. Planificar involucramiento de interesados",
-                },
-            ]
-        },
-
-        {
-            fase:"monitoreo_control",
-            nombreFase: "Monitoreo y control",
-            state: monitoreoYControl,
-            setState: setMonitoreoYControl,
-            subprocesos:[
-                {
-                    procesoRuta: "control_de_involucramiento_de_los_interesados",
-                    procesoNombre: "1. Control de involucramiento de los interesados",
-                },
-                {
-                    procesoRuta: "control_del_cronograma",
-                    procesoNombre: "2. Control del cronograma",
-                },
-                {
-                    procesoRuta: "control_del_costos",
-                    procesoNombre: "3. Control de costos",
-                },
+   
             ]
         },
 
         {
             fase:"entregables",
-            nombreFase: "Entregables",
+            nombreFase: "Entregable",
             state: entregables,
             setState: setEntregables,
             subprocesos:[
                 {
                     procesoRuta: "primer_entregable",
-                    procesoNombre: "1. Primer entregable",
+                    procesoNombre: "Primer entregable",
                 },
             ]
         },
 
         {
             fase:"sesion",
-            nombreFase: "Sesión 6. Actividad",
-            state: actividadSesion,
-            setState: setActividadSesion,
+            nombreFase: "Actividad. Sesión 6",
+            state: actividadGrupal,
+            setState: setActividadGrupal,
             subprocesos:[
                 {
                     procesoRuta: "actividad_sesion",
-                    procesoNombre: "1. Actividad grupal",
+                    procesoNombre: "Actividad Grupal",
                 },
             ]
         },

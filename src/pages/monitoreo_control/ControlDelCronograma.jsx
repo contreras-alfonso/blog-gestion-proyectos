@@ -5,7 +5,7 @@ import { ContenedorImg } from '../../components/ContenedorImg'
 export const ControlDelCronograma = () => {
   return (
     <>
-    <h1 className='titulo_blog'>2. Control del cronograma</h1>
+    <h1 className='titulo_blog'>Control del cronograma</h1>
     <div className="contenedor_blog">
         <div className="contenedor_informacion_2">
             <p className="titulo">Entradas</p>

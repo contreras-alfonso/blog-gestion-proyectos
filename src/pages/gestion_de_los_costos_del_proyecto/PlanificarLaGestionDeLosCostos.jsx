@@ -3,7 +3,7 @@ import React from 'react'
 const PlanificarLaGestionDeLosCostos = () => {
   return (
     <>
-    <h1 className='titulo_blog'>1. Planificar la gestión de los costos</h1>
+    <h1 className='titulo_blog'>Planificar la gestión de los costos</h1>
     <div className="contenedor_blog">
 
   <div className="contenedor_informacion_2">

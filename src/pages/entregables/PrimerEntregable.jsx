@@ -17,7 +17,7 @@ export const PrimerEntregable = () => {
 
   return (
     <>
-    <h1 className='titulo_blog'>1. Primer entregable</h1>
+    <h1 className='titulo_blog'>Primer entregable</h1>
     <div className="contenedor_blog">
 
         <div className="contenedor_informacion_2">

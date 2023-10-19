@@ -3,7 +3,7 @@ import React from 'react'
 const CrearLaEdtWbs = () => {
   return (
     <>
-    <h1 className='titulo_blog'>4. Crear la EDT/WBS</h1>
+    <h1 className='titulo_blog'>Crear la EDT/WBS</h1>
     <div className="contenedor_blog">
 
   <div className="contenedor_informacion_2">

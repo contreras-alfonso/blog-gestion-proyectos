@@ -3,7 +3,7 @@ import React from 'react'
 const DefinirElAlcance = () => {
   return (
     <>
-    <h1 className='titulo_blog'>3. Definir el alcance</h1>
+    <h1 className='titulo_blog'>Definir el alcance</h1>
     <div className="contenedor_blog">
       
   <div className="contenedor_informacion_2">

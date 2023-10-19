@@ -4,7 +4,7 @@ import { ContenedorDoc } from '../../components/ContenedorDoc'
 export const PlanificarInvolucramientoInteresados = () => {
   return (
     <>
-    <h1 className='titulo_blog'>2. Planificar involucramiento de interesados</h1>
+    <h1 className='titulo_blog'>Planificar involucramiento de interesados</h1>
     <div className="contenedor_blog">
         <div className="contenedor_informacion_2">
             <p className="titulo">Entradas</p>

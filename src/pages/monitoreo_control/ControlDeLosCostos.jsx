@@ -4,7 +4,7 @@ import { ContenedorDoc } from '../../components/ContenedorDoc'
 export const ControlDeLosCostos = () => {
   return (
     <>
-    <h1 className='titulo_blog'>3. Control de los costos</h1>
+    <h1 className='titulo_blog'>Control de los costos</h1>
     <div className="contenedor_blog">
         <div className="contenedor_informacion_2">
             <p className="titulo">Entradas</p>

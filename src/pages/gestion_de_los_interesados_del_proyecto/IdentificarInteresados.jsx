@@ -5,7 +5,7 @@ import { ContenedorImg } from '../../components/ContenedorImg'
 export const IdentificarInteresados = () => {
   return (
     <>
-        <h1 className='titulo_blog'>1. Identificar Interesados</h1>
+        <h1 className='titulo_blog'>Identificar Interesados</h1>
         <div className="contenedor_blog">
             <div className="contenedor_informacion_2">
             <p className="titulo">Entradas</p>

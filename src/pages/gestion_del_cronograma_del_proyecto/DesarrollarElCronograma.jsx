@@ -3,7 +3,7 @@ import React from 'react'
 const DesarrollarElCronograma = () => {
   return (
     <>
-    <h1 className='titulo_blog'>5. Desarrollar el cronograma</h1>
+    <h1 className='titulo_blog'>Desarrollar el cronograma</h1>
     <div className="contenedor_blog">
 
   <div className="contenedor_informacion_2">

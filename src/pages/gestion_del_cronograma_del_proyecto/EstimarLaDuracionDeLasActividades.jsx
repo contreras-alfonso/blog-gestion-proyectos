@@ -3,7 +3,7 @@ import React from 'react'
 const EstimarLaDuracionDeLasActividades = () => {
   return (
     <>
-    <h1 className='titulo_blog'>4. Estimar la duración de las actividades</h1>
+    <h1 className='titulo_blog'>Estimar la duración de las actividades</h1>
     <div className="contenedor_blog">
 
   <div className="contenedor_informacion_2">

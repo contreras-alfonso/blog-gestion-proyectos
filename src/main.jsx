@@ -27,6 +27,14 @@ import { PrimerEntregable } from './pages/entregables/PrimerEntregable';
 import { ControlDeInvolucramientoDeLosInteresados } from './pages/monitoreo_control/ControlDeInvolucramientoDeLosInteresados';
 import { ControlDelCronograma } from './pages/monitoreo_control/ControlDelCronograma';
 import { ControlDeLosCostos } from './pages/monitoreo_control/ControlDeLosCostos';
+import { DirigirYGestionarElTrabajoDelProyecto } from './pages/grupo_de_procesos_de_ejecucion/DirigirYGestionarElTrabajoDelProyecto';
+import { GestionarElConocimientoDelProyecto } from './pages/grupo_de_procesos_de_ejecucion/GestionarElConocimientoDelProyecto';
+import { GestionarLaParticipacionDeLosInteresados } from './pages/grupo_de_procesos_de_ejecucion/GestionarLaParticipacionDeLosInteresados';
+import { MonitorearYControlarElTrabajoDelProyecto } from './pages/grupo_de_procesos_de_monitoreo_y_control/MonitorearYControlarElTrabajoDelProyecto';
+import { RealizarElControlIntegradoDeCambios } from './pages/grupo_de_procesos_de_monitoreo_y_control/RealizarElControlIntegradoDeCambios';
+import { ValidarElAlcance } from './pages/grupo_de_procesos_de_monitoreo_y_control/ValidarElAlcance';
+import { ControlarElAlcance } from './pages/grupo_de_procesos_de_monitoreo_y_control/ControlarElAlcance';
+import { DesarrollarElPlanParaLaDireccionDelProyecto } from './pages/grupo_de_procesos_de_planificacion/DesarrollarElPlanParaLaDireccionDelProyecto';
 
 
 const router = createBrowserRouter([
@@ -35,7 +43,7 @@ const router = createBrowserRouter([
     element: <Index/>,
   },
   {
-    path: "/procesos_de_inicio",
+    path: "/grupo_de_procesos_de_inicio",
     element: <Blog/>,
     children: [
       {
@@ -43,28 +51,20 @@ const router = createBrowserRouter([
         element: <DesarrollarActaConstitucion/>,
       },
       {
-        path: "analisis_de_los_interesados",
+        path: "identificar_los_interesados",
         element: <AnalisisDeInteresados/>,
-      },
-      {
-        path: "analisis_de_alternativas",
-        element: <AnalisisDeAlternativas/>,
-      },
-      {
-        path: "analisis_de_problemas_y_objetivos",
-        element: <AnalisisDeProblemasYObjetivos/>,
-      },
-      {
-        path: "matriz_de_marco_logico",
-        element: <MatrizDeMarcoLogico/>,
       },
     ],
   },
 
   {
-    path: "/gestion_del_alcance_del_proyecto",
+    path: "/grupo_de_procesos_de_planificacion",
     element: <Blog/>,
     children: [
+      {
+        path: "desarrollar_el_plan_para_la_direccion_del_proyecto",
+        element: <DesarrollarElPlanParaLaDireccionDelProyecto/>,
+      },
       {
         path: "planificar_la_gestion_del_alcance",
         element: <PlanificarLaGestionDelAlcance/>,
@@ -81,13 +81,7 @@ const router = createBrowserRouter([
         path: "crear_la_edt_wbs",
         element: <CrearLaEdtWbs/>,
       },
-    ],
-  },
 
-  {
-    path: "/gestion_del_cronograma_del_proyecto",
-    element: <Blog/>,
-    children: [
       {
         path: "planificar_la_gestion_del_cronograma",
         element: <PlanificarLaGestionDelCronograma/>,
@@ -108,13 +102,6 @@ const router = createBrowserRouter([
         path: "desarrollar_el_cronograma",
         element: <DesarrollarElCronograma/>,
       },
-    ],
-  },
-  
-  {
-    path: "/gestion_de_los_costos_del_proyecto",
-    element: <Blog/>,
-    children: [
       {
         path: "planificar_la_gestion_de_los_costos",
         element: <PlanificarLaGestionDeLosCostos/>,
@@ -127,39 +114,63 @@ const router = createBrowserRouter([
         path: "determinar_el_presupuesto",
         element: <DeterminarElPresupuesto/>,
       },
-    ],
-  },
-
-  {
-    path: "/gestion_involucramiento_interesados",
-    element: <Blog/>,
-    children: [
       {
-        path: "identificar_interesados",
-        element: <IdentificarInteresados/>,
-      },
-      {
-        path: "planificar_involucramiento_interesados",
+        path: "planificar_el_involucramiento_de_los_interesados",
         element: <PlanificarInvolucramientoInteresados/>,
       },
     ],
   },
 
   {
-    path: "/monitoreo_control",
+    path: "/grupo_de_procesos_de_ejecucion",
     element: <Blog/>,
     children: [
       {
-        path: "control_de_involucramiento_de_los_interesados",
-        element: <ControlDeInvolucramientoDeLosInteresados/>,
+        path: "dirigir_y_gestionar_el_trabajo_del_proyecto",
+        element: <DirigirYGestionarElTrabajoDelProyecto/>,
       },
       {
-        path: "control_del_cronograma",
+        path: "gestionar_el_conocimiento_del_proyecto",
+        element: <GestionarElConocimientoDelProyecto/>,
+      },
+      {
+        path: "gestionar_la_participacion_de_los_interesados",
+        element: <GestionarLaParticipacionDeLosInteresados/>,
+      },
+    ],
+  },
+  
+  {
+    path: "/grupo_de_procesos_de_monitoreo_y_control",
+    element: <Blog/>,
+    children: [
+      {
+        path: "monitorear_y_controlar_el_trabajo_del_proyecto",
+        element: <MonitorearYControlarElTrabajoDelProyecto/>,
+      },
+      {
+        path: "realizar_el_control_integrado_de_cambios",
+        element: <RealizarElControlIntegradoDeCambios/>,
+      },
+      {
+        path: "validar_el_alcance",
+        element: <ValidarElAlcance/>,
+      },
+      {
+        path: "controlar_el_alcance",
+        element: <ControlarElAlcance/>,
+      },
+      {
+        path: "controlar_el_cronograma",
         element: <ControlDelCronograma/>,
       },
       {
-        path: "control_del_costos",
+        path: "controlar_los_costos",
         element: <ControlDeLosCostos/>,
+      },
+      {
+        path: "monitorear_el_involucramiento_de_los_interesados",
+        element: <ControlDeInvolucramientoDeLosInteresados/>,
       },
     ],
   },

@@ -36,7 +36,7 @@ const Index = () => {
                 IMPLEMENTACIÓN DE UN SISTEMA AUTOMATIZADO DE RIEGO PARA EL CUIDADO Y
                 PRESERVACIÓN DEL VIVERO "LA CASA DE PLANTAS Y FLORES"
             </p>
-            <Link to="procesos_de_inicio/desarrollar_el_acta_de_consitucion">
+            <Link to="grupo_de_procesos_de_inicio/desarrollar_el_acta_de_consitucion">
                 <button className="btn btn_secciones">Ver secciones</button>
             </Link>
             </div>
