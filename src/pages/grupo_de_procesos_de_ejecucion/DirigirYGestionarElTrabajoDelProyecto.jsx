@@ -32,8 +32,8 @@ export const DirigirYGestionarElTrabajoDelProyecto = () => {
 
                 <p className="titulo">Herramientas</p>
                 <p className="subtitulo">Reuniones</p>
-                {/* TODO: falta el parrafo */}
-                <p className="parrafo"></p>
+          
+                <p className="parrafo">En nuestra reciente reunión de equipo, nos enfocamos en una minuciosa revisión de los entregables relacionados con los componentes esenciales para nuestro proyecto de vivero. Discutimos los avances, evaluamos la calidad de los diseños y verificamos que cada detalle esté alineado con nuestra visión.</p>
                 <ContenedorImg img={'herramientas_reunion.png'}/>
 
                 <p className="titulo">Salidas</p>

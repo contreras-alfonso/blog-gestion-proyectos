@@ -34,7 +34,7 @@ export const ControlarElAlcance = () => {
             <p className="titulo">Salidas</p>
 
             <p className="subtitulo">Informe de desempeño de Trabajo del Proyecto</p>
-            <ContenedorDoc doc='Informe de desempeño de Trabajo del Proyecto.pdf'/>
+            <ContenedorDoc doc='INFORMACION DEL DESEMPEÑO DEL TRABAJO.pdf'/>
          
 
         </div>
