@@ -34,8 +34,7 @@ export const ValidarElAlcance = () => {
 
             <p className="subtitulo">Reuniones</p>
             <p className="parrafo">Se realizó una reunión para definir y votar con respecto a si el avance del proyecto como tambien los entregables cumplen con los objetivos definidos en el alcance y segun los requerimientos del proyecto hasta el punto actual del cronograma.</p>
-            {/* TODO: cambiar imagen de reunion */}
-            <ContenedorImg img={'herramientas_reunion.png'}/>
+            <ContenedorImg img={'reunion4.jpeg'}/>
 
             <p className="titulo">Salidas</p>
 

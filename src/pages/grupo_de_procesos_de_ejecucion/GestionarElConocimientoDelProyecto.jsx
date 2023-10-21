@@ -22,9 +22,8 @@ export const GestionarElConocimientoDelProyecto = () => {
             <p className="titulo">Herramientas</p>
 
             <p className="subtitulo">Reuniones</p>
-                {/* TODO: cambio de imagen */}
             <p className="parrafo"></p>
-            <ContenedorImg img={'herramientas_reunion.png'}/>
+            <ContenedorImg img={'reunion2.jpeg'}/>
             <p className="parrafo"><i className="fa-solid fa-circle-info"></i> Algunos de los temas clave que se abordaron durante estas reuniones virtuales:</p>
 
             <p className="parrafo"><i className="fa-solid fa-check check-verde"></i> Actualización del progreso:<br/>Informes detallados sobre el progreso logrado, incluidos el cronograma y los obstáculos identificados.<br/>Actualización del estado de la implementación del sistema de riego automatizado.</p>

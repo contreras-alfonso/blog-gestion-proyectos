@@ -19,9 +19,7 @@ export const ControlDelCronograma = () => {
             <ContenedorDoc doc='Salida - Cronograma de Actividades.pdf'/>
 
             <p className="titulo">Herramientas</p>
-            <p className="subtitulo">Análisis de datos </p>
-            {/* TODO */}
-            <p className="parrafo"></p>
+        
             <p className="subtitulo">Gráfica de trabajo pendiente </p>
             <ContenedorDoc doc='Herramienta - Grafica de trabajo pendiente.pdf'/>
 
