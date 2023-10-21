@@ -42,10 +42,10 @@ const Navegacion = ({navegacion,setNavegacion}) => {
             state: grupoDeProcesosDePlanificacion,
             setState: setGrupoDeProcesosDePlanificacion,
             subprocesos:[
-                {
-                    procesoRuta: "desarrollar_el_plan_para_la_direccion_del_proyecto",
-                    procesoNombre: "Desarrollar el plan para la dirección del proyecto",
-                },
+                // {
+                //     procesoRuta: "desarrollar_el_plan_para_la_direccion_del_proyecto",
+                //     procesoNombre: "Desarrollar el plan para la dirección del proyecto",
+                // },
                 {
                     procesoRuta: "planificar_la_gestion_del_alcance",
                     procesoNombre: "Planificar la gestión del alcance",
@@ -162,15 +162,15 @@ const Navegacion = ({navegacion,setNavegacion}) => {
             ]
         },
 
-        {
-            fase:"grupo_de_procesos_de_cierre",
-            nombreFase: "Gestión de interesados del proyecto",
-            state: grupoDeProcesosDeCierre,
-            setState: setGrupoDeProcesosDeCierre,
-            subprocesos:[
+        // {
+        //     fase:"grupo_de_procesos_de_cierre",
+        //     nombreFase: "Gestión de interesados del proyecto",
+        //     state: grupoDeProcesosDeCierre,
+        //     setState: setGrupoDeProcesosDeCierre,
+        //     subprocesos:[
    
-            ]
-        },
+        //     ]
+        // },
 
         {
             fase:"entregables",
