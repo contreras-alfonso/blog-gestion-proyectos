@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.dropdown-menu[data-show] {
+    display: flex;
+  }
+
 *{
     margin: 0;
     padding: 0;
