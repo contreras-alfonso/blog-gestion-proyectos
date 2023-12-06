@@ -295,7 +295,7 @@ export const SeccionesNavegacion = () => {
                 procesos:[
                     {
                         nombreProceso:'3.5.1 Gestionar la Calidad',
-                        rutaProceso: 'desarrollar_el_acta_de_consitucion',
+                        rutaProceso: 'gestionar_la_calidad',
                     },
                 ]
             },
@@ -441,7 +441,7 @@ export const SeccionesNavegacion = () => {
                 procesos:[
                     {
                         nombreProceso:'4.5.1 Controlar la Calidad',
-                        rutaProceso: 'desarrollar_el_acta_de_consitucion',
+                        rutaProceso: 'controlar_la_calidad',
                     },
                 ]
             },

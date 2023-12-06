@@ -38,6 +38,8 @@ import { DesarrollarElPlanParaLaDireccionDelProyecto } from './pages/grupo_de_pr
 import { PrimerSprint } from './pages/sprints/PrimerSprint';
 import { SegundoSprint } from './pages/sprints/SegundoSprint';
 import { PlanificarLaGestionDeLaCalidad } from './pages/calidad/PlanificarLaGestionDeLaCalidad';
+import { GestionarLaCalidad } from './pages/calidad/GestionarLaCalidad';
+import { ControlarLaCalidad } from './pages/calidad/ControlarLaCalidad';
 
 
 const router = createBrowserRouter([
@@ -144,6 +146,10 @@ const router = createBrowserRouter([
         path: "gestionar_la_participacion_de_los_interesados",
         element: <GestionarLaParticipacionDeLosInteresados/>,
       },
+      {
+        path: "gestionar_la_calidad",
+        element: <GestionarLaCalidad/>,
+      },
     ],
   },
   
@@ -178,6 +184,10 @@ const router = createBrowserRouter([
       {
         path: "monitorear_el_involucramiento_de_los_interesados",
         element: <ControlDeInvolucramientoDeLosInteresados/>,
+      },
+      {
+        path: "controlar_la_calidad",
+        element: <ControlarLaCalidad/>,
       },
     ],
   },
