@@ -16,7 +16,7 @@ export const ControlDeLosCostos = () => {
             <ContenedorDoc doc='Salida- Linea base de costos.pdf'/>
             <p className="titulo">Herramientas</p>
             <p className="subtitulo">Análisis de valor ganado</p>
-            <ContenedorDoc doc='Gestión de costos - 1- Curva S.pdf'/>
+            <ContenedorDoc doc={'Analisis de valor ganado.pdf'}/>
             <p className="subtitulo">Tabla resumen de valor ganado</p>
             <ContenedorDoc doc='Tabla de resumen - Valor ganado.pdf'/>
             <p className="titulo">Salidas</p>

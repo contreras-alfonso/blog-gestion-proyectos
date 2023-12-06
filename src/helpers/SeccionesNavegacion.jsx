@@ -45,6 +45,8 @@ export const SeccionesNavegacion = () => {
     
     const [gestionDeLaIntegracionDelProyecto5_1,setGestionDeLaIntegracionDelProyecto5_1] = useState(false);
 
+    const [sprints,setSprints] = useState(false);
+
   return [
     {
         nombreGrupo: "1. Grupo de procesos de inicio",
@@ -527,6 +529,27 @@ export const SeccionesNavegacion = () => {
 
     //     ]
     // },
+
+    {
+        nombreGrupo: "Entregables",
+        rutaGrupo: "sprints",
+        state:  sprints,
+        setState: setSprints,
+        single:[
+            {
+                nombreProceso:'Primer Entregable',
+                rutaProceso: '/entregables/primer_entregable',
+            },
+            {
+                nombreProceso:'Sprint I',
+                rutaProceso: '/sprints/sprint_1',
+            },
+            {
+                nombreProceso:'Sprint II',
+                rutaProceso: '/sprints/sprint_2',
+            }
+        ]
+    },
     
 ]
 }
