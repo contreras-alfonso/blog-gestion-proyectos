@@ -36,7 +36,7 @@ const Navegacion = ({navegacion,setNavegacion}) => {
 
             </div>
             <nav className={`sidebar ${navegacion ? 'w-[480px] p-[25px]' : 'w-0'}`}>
-                <div className={`flex flex-col gap-1  w-full ${navegacion ? '' : 'none'}`}>
+                <div className={`flex flex-col gap-1 select-none w-full ${navegacion ? '' : 'none'}`}>
                     {rutas.map(e=>
                       <div  key={crypto.randomUUID()} className='p-3 border border-black/30  rounded-lg'>
                         <div onClick={()=>{e.setState(!e.state)}} className={` cursor-pointer flex justify-between items-center text-sm  mt-1 pr-3 ${e.state && 'mb-3'}`}>
