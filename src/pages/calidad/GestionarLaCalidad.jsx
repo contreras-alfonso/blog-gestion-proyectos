@@ -28,6 +28,8 @@ export const GestionarLaCalidad = () => {
                     <p className="parrafo">
                         Los informes de calidad son documentos que proporcionan información detallada sobre la calidad de un producto, servicio, proceso o sistema. El propósito principal de un informe de calidad es evaluar y comunicar el grado de cumplimiento de los estándares, especificaciones o criterios predefinidos.</p>
                     <ContenedorDoc doc='INFORME DE CALIDAD PARA LA AUTOMATIZACIÓN DEL RIEGO EN EL VIVERO.pdf' />
+                    <p className="subtitulo">Documento de pruebas y evaluación</p>
+                    <ContenedorDoc doc='DOCUMENTO DE PRUEBAS Y EVALUACION.pdf' />
                 </div>
             </div>
 
