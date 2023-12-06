@@ -27,6 +27,7 @@ export const MonitorearYControlarElTrabajoDelProyecto = () => {
             <p className="titulo">Salidas</p>
             <p className="subtitulo">Informe de desempeño de Trabajo del Proyecto</p>
             <ContenedorDoc doc={'Informe de desempeño de Trabajo del Proyecto.pdf'}/>
+            <ContenedorDoc doc={'SRA.pdf'}/>
             <p className="subtitulo">Registro de lecciones aprendidas</p>
             <ContenedorDoc doc={'Registro de Lecciones Aprendidas.pdf'}/>
 

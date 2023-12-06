@@ -27,14 +27,20 @@ export const ControlDelCronograma = () => {
 
             <ContenedorImg img='Herramienta - Revisiones de desempeño1.png'/>
             <ContenedorImg img='Herramienta - Revisiones de desempeño2.png'/>
+            <ContenedorImg img={'Cronograma - Sprint1.png'} size='90'/>
+            <ContenedorImg img={'Cronograma - Sprint2 - p1.png'} size='90'/>
+            <ContenedorImg img={'Cronograma - Sprint2 - p2.png'} size='90'/>
+           
 
             <p className="titulo">Salidas</p>
 
             <p className="subtitulo">Información de desempeño del trabajo</p>
 
             <ContenedorImg img='Salida - Informe de desempeño1.jpg'/>
+            <ContenedorImg img={'Entrada - Cronograma del proyecto_page-0002.jpg'} size='90'/>
             <ContenedorImg img='Salida - Informe de desempeño2.png'/>
             <ContenedorImg img='Salida - Informe de desempeño3.png'/>
+            <ContenedorDoc doc='SRA.pdf'/>
         </div>
 
     </div>

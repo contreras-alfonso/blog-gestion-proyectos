@@ -35,6 +35,9 @@ import { RealizarElControlIntegradoDeCambios } from './pages/grupo_de_procesos_d
 import { ValidarElAlcance } from './pages/grupo_de_procesos_de_monitoreo_y_control/ValidarElAlcance';
 import { ControlarElAlcance } from './pages/grupo_de_procesos_de_monitoreo_y_control/ControlarElAlcance';
 import { DesarrollarElPlanParaLaDireccionDelProyecto } from './pages/grupo_de_procesos_de_planificacion/DesarrollarElPlanParaLaDireccionDelProyecto';
+import { PrimerSprint } from './pages/sprints/PrimerSprint';
+import { SegundoSprint } from './pages/sprints/SegundoSprint';
+import { PlanificarLaGestionDeLaCalidad } from './pages/calidad/PlanificarLaGestionDeLaCalidad';
 
 
 const router = createBrowserRouter([
@@ -118,6 +121,10 @@ const router = createBrowserRouter([
         path: "planificar_el_involucramiento_de_los_interesados",
         element: <PlanificarInvolucramientoInteresados/>,
       },
+      {
+        path: "planificar_la_gestion_de_la_calidad",
+        element: <PlanificarLaGestionDeLaCalidad/>,
+      },
     ],
   },
 
@@ -183,6 +190,21 @@ const router = createBrowserRouter([
       {
         path: "primer_entregable",
         element: <PrimerEntregable/>,
+      },
+    ],
+  },
+
+  {
+    path: "/sprints",
+    element: <Blog/>,
+    children: [
+      {
+        path: "sprint_1",
+        element: <PrimerSprint/>,
+      },
+      {
+        path: "sprint_2",
+        element: <SegundoSprint/>,
       },
     ],
   },

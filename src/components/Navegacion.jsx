@@ -45,7 +45,7 @@ const Navegacion = ({navegacion,setNavegacion}) => {
                         </div>
                         {e.areas.map(area=>(
                           <div className={`${!e.state && 'none'}`} key={crypto.randomUUID()}>
-                            <div onClick={()=>{area.setState(!area.state)}} className='cursor-pointer flex justify-between text-sm border border-dashed p-3 rounded-lg mb-1'>
+                            <div onClick={()=>{area.setState(!area.state)}} className='cursor-pointer flex justify-between text-sm border border-dashed border-black/30 p-3 rounded-lg mb-1'>
                               <p>{area.nombreArea}</p>
                               {area.state ? (<i className="fa-sharp fa-solid fa-chevron-up text-xs"></i>) : (<i className="fa-solid fa-chevron-down text-xs"></i>)}
                             </div>

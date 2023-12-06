@@ -168,17 +168,17 @@ export const SeccionesNavegacion = () => {
                 ]
             },
 
-            // {
-            //     nombreArea: "2.5 Gestión de la Calidad del Proyecto",
-            //     state:  gestionDeLaCalidadDelProyecto2_5,
-            //     setState:setGestionDeLaCalidadDelProyecto2_5 ,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'2.5.1 Planificar la Gestión de la Calidad',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "2.5 Gestión de la Calidad del Proyecto",
+                state:  gestionDeLaCalidadDelProyecto2_5,
+                setState:setGestionDeLaCalidadDelProyecto2_5 ,
+                procesos:[
+                    {
+                        nombreProceso:'2.5.1 Planificar la Gestión de la Calidad',
+                        rutaProceso: 'planificar_la_gestion_de_la_calidad',
+                    },
+                ]
+            },
 
             // {
             //     nombreArea: "2.6. Gestión de los Recursos del Proyecto",
@@ -286,17 +286,17 @@ export const SeccionesNavegacion = () => {
                 ]
             },
 
-            // {
-            //     nombreArea: "3.5. Gestión de la Calidad del Proyecto",
-            //     state:  gestionDeLaCalidadDelProyecto3_5,
-            //     setState: setGestionDeLaCalidadDelProyecto3_5 ,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'3.5.1 Gestionar la Calidad',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "3.5. Gestión de la Calidad del Proyecto",
+                state:  gestionDeLaCalidadDelProyecto3_5,
+                setState: setGestionDeLaCalidadDelProyecto3_5 ,
+                procesos:[
+                    {
+                        nombreProceso:'3.5.1 Gestionar la Calidad',
+                        rutaProceso: 'desarrollar_el_acta_de_consitucion',
+                    },
+                ]
+            },
 
             // {
             //     nombreArea: "3.6. Gestión de los Recursos del Proyecto",
@@ -432,17 +432,17 @@ export const SeccionesNavegacion = () => {
                 ]
             },
 
-            // {
-            //     nombreArea: "4.5 Gestión de la Calidad del Proyecto",
-            //     state:  gestionDeLaCalidadDelProyecto4_5,
-            //     setState: setGestionDeLaCalidadDelProyecto4_5,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'4.5.1 Controlar la Calidad',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "4.5 Gestión de la Calidad del Proyecto",
+                state:  gestionDeLaCalidadDelProyecto4_5,
+                setState: setGestionDeLaCalidadDelProyecto4_5,
+                procesos:[
+                    {
+                        nombreProceso:'4.5.1 Controlar la Calidad',
+                        rutaProceso: 'desarrollar_el_acta_de_consitucion',
+                    },
+                ]
+            },
 
             // {
             //     nombreArea: "4.6 Gestión de los Recursos del Proyecto",
