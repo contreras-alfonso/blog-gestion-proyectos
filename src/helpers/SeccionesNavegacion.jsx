@@ -182,21 +182,21 @@ export const SeccionesNavegacion = () => {
                 ]
             },
 
-            // {
-            //     nombreArea: "2.6. Gestión de los Recursos del Proyecto",
-            //     state: gestionDeLosRecursosDelProyecto2_6 ,
-            //     setState: setGestionDeLosRecursosDelProyecto2_6,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'2.6.1 Planificar la Gestión de Recursos',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //         {
-            //             nombreProceso:'2.6.2 Estimar los Recursos de las Actividades',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "2.6. Gestión de los Recursos del Proyecto",
+                state: gestionDeLosRecursosDelProyecto2_6 ,
+                setState: setGestionDeLosRecursosDelProyecto2_6,
+                procesos:[
+                    {
+                        nombreProceso:'2.6.1 Planificar la Gestión de Recursos',
+                        rutaProceso: 'planificar_la_gestion_de_recursos',
+                    },
+                    {
+                        nombreProceso:'2.6.2 Estimar los Recursos de las Actividades',
+                        rutaProceso: 'estimar_los_recursos_de_las_actividades',
+                    },
+                ]
+            },
 
             // {
             //     nombreArea: "2.7. Gestión de las comunicaciones del Proyecto",
@@ -300,25 +300,25 @@ export const SeccionesNavegacion = () => {
                 ]
             },
 
-            // {
-            //     nombreArea: "3.6. Gestión de los Recursos del Proyecto",
-            //     state:  gestionDeLosRecursosDelProyecto3_6,
-            //     setState: setGestionDeLosRecursosDelProyecto3_6,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'3.6.1 Adquirir Recursos',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //         {
-            //             nombreProceso:'3.6.2 Desarrollar el equipo',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //         {
-            //             nombreProceso:'3.6.3 Dirigir el Equipo',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "3.6. Gestión de los Recursos del Proyecto",
+                state:  gestionDeLosRecursosDelProyecto3_6,
+                setState: setGestionDeLosRecursosDelProyecto3_6,
+                procesos:[
+                    {
+                        nombreProceso:'3.6.1 Adquirir Recursos',
+                        rutaProceso: 'adquirir_recursos',
+                    },
+                    {
+                        nombreProceso:'3.6.2 Desarrollar el equipo',
+                        rutaProceso: 'desarrollar_el_equipo',
+                    },
+                    {
+                        nombreProceso:'3.6.3 Dirigir el Equipo',
+                        rutaProceso: 'dirigir_el_equipo',
+                    },
+                ]
+            },
 
             // {
             //     nombreArea: "3.7. Gestión de las comunicaciones del Proyecto",
@@ -446,17 +446,17 @@ export const SeccionesNavegacion = () => {
                 ]
             },
 
-            // {
-            //     nombreArea: "4.6 Gestión de los Recursos del Proyecto",
-            //     state:  gestionDeLosRecursosDelProyecto4_6,
-            //     setState: setGestionDeLosRecursosDelProyecto4_6,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'4.6.1 Controlar los Recursos',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "4.6 Gestión de los Recursos del Proyecto",
+                state:  gestionDeLosRecursosDelProyecto4_6,
+                setState: setGestionDeLosRecursosDelProyecto4_6,
+                procesos:[
+                    {
+                        nombreProceso:'4.6.1 Controlar los Recursos',
+                        rutaProceso: 'controlar_los_recursos',
+                    },
+                ]
+            },
 
             // {
             //     nombreArea: "4.7 Gestión de las comunicaciones del Proyecto",
@@ -547,6 +547,10 @@ export const SeccionesNavegacion = () => {
             {
                 nombreProceso:'Sprint II',
                 rutaProceso: '/sprints/sprint_2',
+            },
+            {
+                nombreProceso:'Sprint III',
+                rutaProceso: '/sprints/sprint_3',
             }
         ]
     },

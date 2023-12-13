@@ -40,6 +40,13 @@ import { SegundoSprint } from './pages/sprints/SegundoSprint';
 import { PlanificarLaGestionDeLaCalidad } from './pages/calidad/PlanificarLaGestionDeLaCalidad';
 import { GestionarLaCalidad } from './pages/calidad/GestionarLaCalidad';
 import { ControlarLaCalidad } from './pages/calidad/ControlarLaCalidad';
+import { PlanificarLaGestionDeRecursos } from './pages/recursos/PlanificarLaGestionDeRecursos';
+import { EstimarLosRecursosDeLasActividades } from './pages/recursos/EstimarLosRecursosDeLasActividades';
+import { AdquirirRecursos } from './pages/recursos/AdquirirRecursos';
+import { DesarrollarElEquipo } from './pages/recursos/DesarrollarElEquipo';
+import { DirigirElEquipo } from './pages/recursos/DirigirElEquipo';
+import { ControlarLosRecursos } from './pages/recursos/ControlarLosRecursos';
+import { TercerSprint } from './pages/sprints/TercerSprint';
 
 
 const router = createBrowserRouter([
@@ -127,6 +134,14 @@ const router = createBrowserRouter([
         path: "planificar_la_gestion_de_la_calidad",
         element: <PlanificarLaGestionDeLaCalidad/>,
       },
+      {
+        path: "planificar_la_gestion_de_recursos",
+        element: <PlanificarLaGestionDeRecursos/>,
+      },
+      {
+        path: "estimar_los_recursos_de_las_actividades",
+        element: <EstimarLosRecursosDeLasActividades/>,
+      },
     ],
   },
 
@@ -149,6 +164,18 @@ const router = createBrowserRouter([
       {
         path: "gestionar_la_calidad",
         element: <GestionarLaCalidad/>,
+      },
+      {
+        path: "adquirir_recursos",
+        element: <AdquirirRecursos/>,
+      },
+      {
+        path: "desarrollar_el_equipo",
+        element: <DesarrollarElEquipo/>,
+      },
+      {
+        path: "dirigir_el_equipo",
+        element: <DirigirElEquipo/>,
       },
     ],
   },
@@ -189,6 +216,10 @@ const router = createBrowserRouter([
         path: "controlar_la_calidad",
         element: <ControlarLaCalidad/>,
       },
+      {
+        path: "controlar_los_recursos",
+        element: <ControlarLosRecursos/>,
+      },
     ],
   },
 
@@ -215,6 +246,11 @@ const router = createBrowserRouter([
       {
         path: "sprint_2",
         element: <SegundoSprint/>,
+      },
+
+      {
+        path: "sprint_3",
+        element: <TercerSprint/>,
       },
     ],
   },
