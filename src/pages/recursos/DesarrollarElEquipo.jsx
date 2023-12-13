@@ -24,9 +24,11 @@ export const DesarrollarElEquipo = () => {
                     <p className="titulo">Herramientas</p>
                     <p className="subtitulo">Habilidades Interpersonales y de Equipo</p>
                     <ContenedorDoc doc='Habilidades Interpersonales y de Equipo.pdf' />
+                    <p className="subtitulo">Representacion de datos - Matriz de responsabilidades</p>
+                    <ContenedorDoc doc='Herramienta - Representacion de datos - Matriz de responsabilidades.pdf' />
                     <p className="titulo">Salida</p>
-                    <p className="subtitulo">Control de calidad</p>
-                    <ContenedorDoc doc='Control de Calidad.pdf' />
+                    <p className="subtitulo">Información del desempeño del trabajo</p>
+                    <ContenedorDoc doc='INFORMACION DEL DESEMPEÑO DEL TRABAJO.pdf' />
 
                 </div>
             </div>

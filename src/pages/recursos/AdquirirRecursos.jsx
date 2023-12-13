@@ -29,8 +29,10 @@ export const AdquirirRecursos = () => {
             <ContenedorDoc doc='TOMA DE DESICIONES.pdf' />
 
             <p className="titulo">Salida</p>
-            <p className="subtitulo">Control de calidad</p>
-            <ContenedorDoc doc='Control de Calidad.pdf' />
+            <p className="subtitulo">Asignación de recursos</p>
+                    <ContenedorImg img={'asignacion de recursos 1.png'} size='90'/>
+                    <ContenedorImg img={'asignacion de recursos 2.png'} size='90'/>
+                    <ContenedorImg img={'asignacion de recursos 3.png'} size='90'/>
 
           </div>
         </div>

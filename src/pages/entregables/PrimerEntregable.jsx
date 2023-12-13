@@ -21,6 +21,8 @@ export const PrimerEntregable = () => {
     <div className="contenedor_blog">
 
         <div className="contenedor_informacion_2">
+        <p className="subtitulo">Cronograma</p>
+        <ContenedorImg img={'cronograma entregable 1.jpeg'} size='90'/>
         <p className="subtitulo">Componentes y esquema</p>
         <p className="parrafo"><i class="fa-solid fa-check check-verde"></i> En esta etapa, se han identificado y seleccionado los sensores clave que se integrarán en el sistema. Estos incluyen sensores de humedad del suelo de alta precisión, capaces de medir con exactitud los niveles de humedad en diferentes condiciones ambientales. También se identificaron los microcrontroladores a usar</p>
         <ContenedorDoc doc={'Componentes y esquemas.pdf'}/>
@@ -28,6 +30,7 @@ export const PrimerEntregable = () => {
         <p className="parrafo"><i class="fa-solid fa-check check-verde"></i> Para las pruebas unitarias, se creó un diagrama de flujo, cuando los sensores detecten niveles bajos de humedad en el suelo o condiciones secas, activarán automáticamente el sistema de riego. La lógica de control coordinará la apertura de las válvulas de riego y el suministro de agua a las áreas afectadas. Una vez que se alcance el nivel óptimo de humedad, el sistema se apagará automáticamente, evitando un exceso de riego.</p>
         {/* Este proceso continuará de manera automatizada, asegurando un suministro óptimo de agua para el cultivo sin desperdiciar recursos hídricos. */}
         <ContenedorImg img={'entregable1-diagrama-de-flujo.png'} size='30'/>
+      
         <p className="subtitulo">Ensamblaje y pruebas unitarias</p>
         <p className="parrafo">
         <i class="fa-solid fa-check check-verde"></i> En esta etapa, ensamblamos todas las partes del sistema y nos aseguramos de que funcionaran bien por separado. Probamos cada parte para verificar que estuvieran trabajando correctamente. Esto nos aseguró de que el sistema cumpla con las pruebas sometidas y funcione sin problemas.</p>

@@ -19,8 +19,12 @@ export const TercerSprint = () => {
                     <p className="subtitulo">Implementación</p>
                     <ContenedorImg img={'implementacion2.jpeg'} size='60' />
                     <ContenedorImg img={'Implementacion1.jpeg'} size='60' />
+                  
                     <p className="subtitulo">Cronograma completo</p>
                     <ContenedorDoc doc='cronograma completo.pdf' />
+                    <p className="subtitulo">Puesta en marcha</p>
+                    <ContenedorImg img={'puesta en marcha sprint 3.png'} size='90' />
+                    <ContenedorImg img={'puesta en marcha sprint 3-2.png'} size='80' />
 
 
 
