@@ -1,5 +1,6 @@
 import React from 'react'
 import { ContenedorDoc } from '../../components/ContenedorDoc'
+import { ContenedorImg } from '../../components/ContenedorImg'
 
 export const PlanificarLaRespuestaALosRiesgos = () => {
   return (
@@ -16,9 +17,18 @@ export const PlanificarLaRespuestaALosRiesgos = () => {
           <p className="subtitulo">Factores Ambientales y Activos</p>
           <ContenedorDoc doc='FACTORES AMBIENTALES.pdf' />
           <p className="titulo">Herramientas</p>
+          <p className="subtitulo">Habilidades Interpersonales y de Equipo</p>
+
+          <ContenedorDoc doc='Habilidades Interpersonales y de Equipo.pdf' />
+          <p className="subtitulo">Estrategias para amenazas</p>
+          <ContenedorImg img={'Estrategias para amenazas.PNG'}/>
+          <p className="subtitulo">Estrategias para oportunidades</p>
+          <ContenedorImg img={'Estrategias para oportunidades.PNG'}/>
           <p className="titulo">Salidas</p>
-
-
+          <p className="subtitulo">Actualización del plan de dirección de proyecto</p>
+          <ContenedorDoc doc='plan para la dirección de proyectos.pdf' />
+          <p className="subtitulo">Actualización de activos de la organización</p>
+          <ContenedorDoc doc='FACTORES AMBIENTALES.pdf' />
         </div>
       </div>
 

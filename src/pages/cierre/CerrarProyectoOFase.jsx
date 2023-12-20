@@ -1,4 +1,6 @@
 import React from 'react'
+import { ContenedorDoc } from '../../components/ContenedorDoc'
+import { ContenedorImg } from '../../components/ContenedorImg'
 
 export const CerrarProyectoOFase = () => {
   return (
@@ -18,7 +20,16 @@ export const CerrarProyectoOFase = () => {
 
           <ContenedorDoc doc='FACTORES AMBIENTALES.pdf' />
         <p className="titulo">Herramientas</p>
+        <p className="subtitulo">Reuniones</p>
+        <p className="parrafo">En la siguiente reunion, se vio la implementación, validaciones y conclusiones finales del proyecto, para estar a corde con lo planteado en un inicio</p>
+        <ContenedorImg img={'reuniones_final.jpeg'} ></ContenedorImg>
         <p className="titulo">Salidas</p>
+        <p className="subtitulo">Informe de transferencia del proyecto</p>
+        <ContenedorDoc doc='INFORME DE TRANSFERENCIA DEL PROYECTO DE AUTOMATIZACIÓN DEL RIEGO EN EL VIVERO.pdf' />
+        <p className="subtitulo">Acta de aceptación del proyecto</p>
+        <ContenedorDoc doc='SALIDA - ACTA DE ACEPTACION DEL PROYECTO.pdf' />
+        <p className="subtitulo">Manual de usuario</p>
+        <ContenedorDoc doc='MANUAL DE USUARIO.pdf' />
 
 
       </div>

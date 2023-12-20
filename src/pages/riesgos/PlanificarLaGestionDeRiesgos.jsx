@@ -20,8 +20,8 @@ export const PlanificarLaGestionDeRiesgos = () => {
             <ContenedorDoc doc='FACTORES AMBIENTALES.pdf' />
             <p className="titulo">Herramientas</p>
             <p className="subtitulo">Análisis de datos</p>
-            <ContenedorImg img={'Herramienta - analisis de datos1.png'} size='60'/>
-            <ContenedorImg img={'Herramienta - analisis de datos2.png'} size='60'/>
+            <ContenedorImg img={'planificar_la_gestion_de_riesgos_3.jpeg'} size='60'/>
+
 
             <p className="titulo">Salidas</p>
             <p className="subtitulo">Plan para la Gestión de los Riesgos</p>
