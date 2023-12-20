@@ -47,6 +47,20 @@ import { DesarrollarElEquipo } from './pages/recursos/DesarrollarElEquipo';
 import { DirigirElEquipo } from './pages/recursos/DirigirElEquipo';
 import { ControlarLosRecursos } from './pages/recursos/ControlarLosRecursos';
 import { TercerSprint } from './pages/sprints/TercerSprint';
+import { PlanificarLaRespuestaALosRiesgos } from './pages/riesgos/PlanificarLaRespuestaALosRiesgos';
+import { IdentificarLosRiesgos } from './pages/riesgos/IdentificarLosRiesgos';
+import { PlanificarLaGestionDeRiesgos } from './pages/riesgos/PlanificarLaGestionDeRiesgos';
+import { RealizarElAnalisisCualitativoDeRiesgos } from './pages/riesgos/RealizarElAnalisisCualitativoDeRiesgos';
+import { RealizarElAnalisisCuantitativoDeRiesgos } from './pages/riesgos/RealizarElAnalisisCuantitativoDeRiesgos';
+import { ImplementarLaRepuestaALosRiesgos } from './pages/riesgos/ImplementarLaRepuestaALosRiesgos';
+import { MonitorearLosRiesgos } from './pages/riesgos/MonitorearLosRiesgos';
+import { PlanificarLaGestionDeLasComunicaciones } from './pages/comunicaciones/PlanificarLaGestionDeLasComunicaciones';
+import { GestionarLasComunicaciones } from './pages/comunicaciones/GestionarLasComunicaciones';
+import { MonitorearLasComunicaciones } from './pages/comunicaciones/MonitorearLasComunicaciones';
+import { PlanificarLaGestionDeLasAdquisiciones } from './pages/adquisiciones/PlanificarLaGestionDeLasAdquisiciones';
+import { EfectuarLasAdquisiciones } from './pages/adquisiciones/EfectuarLasAdquisiciones';
+import { ControlarLasAdquisiciones } from './pages/adquisiciones/ControlarLasAdquisiciones';
+import { CerrarProyectoOFase } from './pages/cierre/CerrarProyectoOFase';
 
 
 const router = createBrowserRouter([
@@ -142,6 +156,34 @@ const router = createBrowserRouter([
         path: "estimar_los_recursos_de_las_actividades",
         element: <EstimarLosRecursosDeLasActividades/>,
       },
+      {
+        path: "planificar_la_gestion_de_riesgos",
+        element: <PlanificarLaGestionDeRiesgos/>,
+      },
+      {
+        path: "identificar_los_riesgos",
+        element: <IdentificarLosRiesgos/>,
+      },
+      {
+        path: "realizar_el_analisis_cualitativo_de_riesgos",
+        element: <RealizarElAnalisisCualitativoDeRiesgos/>,
+      },
+      {
+        path: "realizar_el_analisis_cuantitativo_de_riesgos",
+        element: <RealizarElAnalisisCuantitativoDeRiesgos/>,
+      },
+      {
+        path: "planificar_la_respuesta_a_los_riesgos",
+        element: <PlanificarLaRespuestaALosRiesgos/>,
+      },
+      {
+        path: "planificar_la_gestion_de_las_comunicaciones",
+        element: <PlanificarLaGestionDeLasComunicaciones/>,
+      },
+      {
+        path: "planificar_la_gestion_de_las_adquisiciones",
+        element: <PlanificarLaGestionDeLasAdquisiciones/>,
+      },
     ],
   },
 
@@ -176,6 +218,18 @@ const router = createBrowserRouter([
       {
         path: "dirigir_el_equipo",
         element: <DirigirElEquipo/>,
+      },
+      {
+        path: "implementar_la_respuesta_a_los_riesgos",
+        element: <ImplementarLaRepuestaALosRiesgos/>,
+      },
+      {
+        path: "gestionar_las_comunicaciones",
+        element: <GestionarLasComunicaciones/>,
+      },
+      {
+        path: "efectuar_las_adquisiciones",
+        element: <EfectuarLasAdquisiciones/>,
       },
     ],
   },
@@ -219,6 +273,29 @@ const router = createBrowserRouter([
       {
         path: "controlar_los_recursos",
         element: <ControlarLosRecursos/>,
+      },
+      {
+        path: "monitorear_los_riesgos",
+        element: <MonitorearLosRiesgos/>,
+      },
+      {
+        path: "monitorear_las_comunicaciones",
+        element: <MonitorearLasComunicaciones/>,
+      },
+      {
+        path: "controlar_las_adquisiciones",
+        element: <ControlarLasAdquisiciones/>,
+      },
+    ],
+  },
+
+  {
+    path: "/grupo_de_procesos_de_cierre",
+    element: <Blog/>,
+    children: [
+      {
+        path: "cerrar_proyecto_o_fase",
+        element: <CerrarProyectoOFase/>,
       },
     ],
   },

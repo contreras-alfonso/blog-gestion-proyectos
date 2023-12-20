@@ -26,7 +26,8 @@ export const TercerSprint = () => {
                     <ContenedorImg img={'puesta en marcha sprint 3.png'} size='90' />
                     <ContenedorImg img={'puesta en marcha sprint 3-2.png'} size='80' />
 
-
+                    <p className="subtitulo">Manual de usuario</p>
+                    <ContenedorDoc doc='MANUAL DE USUARIO.pdf' />
 
                 </div>
             </div>

@@ -4,7 +4,7 @@ import Navegacion from './Navegacion';
 
 export const Header = () => {
 
-    const [navegacion,setNavegacion] = useState(false);
+    const [navegacion,setNavegacion] = useState(true);
     const [headerFixed,setHeaderFixed] = useState(false);
 
     const cambiarState = () => {

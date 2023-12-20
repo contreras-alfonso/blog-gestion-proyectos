@@ -198,57 +198,57 @@ export const SeccionesNavegacion = () => {
                 ]
             },
 
-            // {
-            //     nombreArea: "2.7. Gestión de las comunicaciones del Proyecto",
-            //     state:  gestionDeLasComunicacionesDelProyecto2_7,
-            //     setState: setGestionDeLasComunicacionesDelProyecto2_7,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'2.7.1 Planificar la Gestión de las comunicaciones',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "2.7. Gestión de las comunicaciones del Proyecto",
+                state:  gestionDeLasComunicacionesDelProyecto2_7,
+                setState: setGestionDeLasComunicacionesDelProyecto2_7,
+                procesos:[
+                    {
+                        nombreProceso:'2.7.1 Planificar la Gestión de las comunicaciones',
+                        rutaProceso: 'planificar_la_gestion_de_las_comunicaciones',
+                    },
+                ]
+            },
 
-            // {
-            //     nombreArea: "2.8 Gestión de los Riesgos del Proyecto",
-            //     state: gestionDeLosRiesgosDelProyecto2_8 ,
-            //     setState:setGestionDeLosRiesgosDelProyecto2_8 ,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'2.8.1 Planificar la Gestión de los Riesgos',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //         {
-            //             nombreProceso:'2.8.2 Identificar los Riesgos',
-            //             rutaProceso: '2.3 Definir el Alcance',
-            //         },
-            //         {
-            //             nombreProceso:'2.8.3 Realizar el Análisis Cualitativo de Riesgos',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //         {
-            //             nombreProceso:'2.8.4 Realizar el análisis cuantitativo de Riesgos',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //         {
-            //             nombreProceso:'2.8.5 Planificar la Respuesta a los Riesgos',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "2.8 Gestión de los Riesgos del Proyecto",
+                state: gestionDeLosRiesgosDelProyecto2_8 ,
+                setState:setGestionDeLosRiesgosDelProyecto2_8 ,
+                procesos:[
+                    {
+                        nombreProceso:'2.8.1 Planificar la Gestión de los Riesgos',
+                        rutaProceso: 'planificar_la_gestion_de_riesgos',
+                    },
+                    {
+                        nombreProceso:'2.8.2 Identificar los Riesgos',
+                        rutaProceso: 'identificar_los_riesgos',
+                    },
+                    {
+                        nombreProceso:'2.8.3 Realizar el Análisis Cualitativo de Riesgos',
+                        rutaProceso: 'realizar_el_analisis_cualitativo_de_riesgos',
+                    },
+                    {
+                        nombreProceso:'2.8.4 Realizar el análisis cuantitativo de Riesgos',
+                        rutaProceso: 'realizar_el_analisis_cuantitativo_de_riesgos',
+                    },
+                    {
+                        nombreProceso:'2.8.5 Planificar la Respuesta a los Riesgos',
+                        rutaProceso: 'planificar_la_respuesta_a_los_riesgos',
+                    },
+                ]
+            },
 
-            // {
-            //     nombreArea: "2.9 Gestión de las Adquisiciones del Proyecto",
-            //     state:  gestionDeLasAdquisicionesDelProyecto2_9,
-            //     setState: setGestionDeLasAdquisicionesDelProyecto2_9,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'2.9.1 Planificar la Gestión de las Adquisiciones',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "2.9 Gestión de las Adquisiciones del Proyecto",
+                state:  gestionDeLasAdquisicionesDelProyecto2_9,
+                setState: setGestionDeLasAdquisicionesDelProyecto2_9,
+                procesos:[
+                    {
+                        nombreProceso:'2.9.1 Planificar la Gestión de las Adquisiciones',
+                        rutaProceso: 'planificar_la_gestion_de_las_adquisiciones',
+                    },
+                ]
+            },
 
             
             {
@@ -320,41 +320,41 @@ export const SeccionesNavegacion = () => {
                 ]
             },
 
-            // {
-            //     nombreArea: "3.7. Gestión de las comunicaciones del Proyecto",
-            //     state:  gestionDeLasComunicacionesDelProyecto3_7,
-            //     setState: setGestionDeLasComunicacionesDelProyecto3_7,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'3.7.1 Gestionar las Comunicaciones',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "3.7. Gestión de las comunicaciones del Proyecto",
+                state:  gestionDeLasComunicacionesDelProyecto3_7,
+                setState: setGestionDeLasComunicacionesDelProyecto3_7,
+                procesos:[
+                    {
+                        nombreProceso:'3.7.1 Gestionar las Comunicaciones',
+                        rutaProceso: 'gestionar_las_comunicaciones',
+                    },
+                ]
+            },
 
-            // {
-            //     nombreArea: "3.8. Gestión de los Riesgos del Proyecto",
-            //     state:  gestionDeLosRiesgosDelProyecto3_8,
-            //     setState: setGestionDeLosRiesgosDelProyecto3_8,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'3.8.1 Implementar la Respuesta a los Riesgos',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "3.8. Gestión de los Riesgos del Proyecto",
+                state:  gestionDeLosRiesgosDelProyecto3_8,
+                setState: setGestionDeLosRiesgosDelProyecto3_8,
+                procesos:[
+                    {
+                        nombreProceso:'3.8.1 Implementar la Respuesta a los Riesgos',
+                        rutaProceso: 'implementar_la_respuesta_a_los_riesgos',
+                    },
+                ]
+            },
 
-            // {
-            //     nombreArea: "3.9 Gestión de las Adquisiciones del Proyecto",
-            //     state:  gestionDeLasAdquisicionesDelProyecto3_9,
-            //     setState: setGestionDeLasAdquisicionesDelProyecto3_9,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'3.9.1 Efectuar las Adquisiciones',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "3.9 Gestión de las Adquisiciones del Proyecto",
+                state:  gestionDeLasAdquisicionesDelProyecto3_9,
+                setState: setGestionDeLasAdquisicionesDelProyecto3_9,
+                procesos:[
+                    {
+                        nombreProceso:'3.9.1 Efectuar las Adquisiciones',
+                        rutaProceso: 'efectuar_las_adquisiciones',
+                    },
+                ]
+            },
 
             
             {
@@ -458,41 +458,41 @@ export const SeccionesNavegacion = () => {
                 ]
             },
 
-            // {
-            //     nombreArea: "4.7 Gestión de las comunicaciones del Proyecto",
-            //     state: gestionDeLasComunicacionesDelProyecto4_7 ,
-            //     setState: setGestionDeLasComunicacionesDelProyecto4_7,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'4.7.1 Monitorear las Comunicaciones',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "4.7 Gestión de las comunicaciones del Proyecto",
+                state: gestionDeLasComunicacionesDelProyecto4_7 ,
+                setState: setGestionDeLasComunicacionesDelProyecto4_7,
+                procesos:[
+                    {
+                        nombreProceso:'4.7.1 Monitorear las Comunicaciones',
+                        rutaProceso: 'monitorear_las_comunicaciones',
+                    },
+                ]
+            },
 
-            // {
-            //     nombreArea: "4.8 Gestión de los Riesgos del Proyecto",
-            //     state:  gestionDeLosRiesgosDelProyecto4_8,
-            //     setState: setGestionDeLosRiesgosDelProyecto4_8,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'4.8.1 Monitorear los Riesgos',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "4.8 Gestión de los Riesgos del Proyecto",
+                state:  gestionDeLosRiesgosDelProyecto4_8,
+                setState: setGestionDeLosRiesgosDelProyecto4_8,
+                procesos:[
+                    {
+                        nombreProceso:'4.8.1 Monitorear los Riesgos',
+                        rutaProceso: 'monitorear_los_riesgos',
+                    },
+                ]
+            },
 
-            // {
-            //     nombreArea: "4.9 Gestión de las Adquisiciones del Proyecto",
-            //     state:  gestionDeLasAdquisicionesDelProyecto4_9,
-            //     setState: setGestionDeLasAdquisicionesDelProyecto4_9,
-            //     procesos:[
-            //         {
-            //             nombreProceso:'4.9.1 Controlar las Adquisiciones',
-            //             rutaProceso: 'desarrollar_el_acta_de_consitucion',
-            //         },
-            //     ]
-            // },
+            {
+                nombreArea: "4.9 Gestión de las Adquisiciones del Proyecto",
+                state:  gestionDeLasAdquisicionesDelProyecto4_9,
+                setState: setGestionDeLasAdquisicionesDelProyecto4_9,
+                procesos:[
+                    {
+                        nombreProceso:'4.9.1 Controlar las Adquisiciones',
+                        rutaProceso: 'controlar_las_adquisiciones',
+                    },
+                ]
+            },
 
             
             {
@@ -510,25 +510,26 @@ export const SeccionesNavegacion = () => {
         ]
     },
 
-    // {
-    //     nombreGrupo: "5. Grupo de Procesos de Cierre",
-    //     state: grupoDeProcesosDeCierre ,
-    //     setState: setGrupoDeProcesosDeCierre ,
-    //     areas:[
-    //         {
-    //             nombreArea: "5.1 Gestión de Integración del proyecto",
-    //             state: gestionDeLaIntegracionDelProyecto5_1 ,
-    //             setState: setGestionDeLaIntegracionDelProyecto5_1,
-    //             procesos:[
-    //                 {
-    //                     nombreProceso:'5.1.1 Cerrar Proyecto o Fase',
-    //                     rutaProceso: 'desarrollar_el_acta_de_consitucion',
-    //                 },
-    //             ]
-    //         },
+    {
+        nombreGrupo: "5. Grupo de Procesos de Cierre",
+        rutaGrupo: "grupo_de_procesos_de_cierre",
+        state: grupoDeProcesosDeCierre ,
+        setState: setGrupoDeProcesosDeCierre ,
+        areas:[
+            {
+                nombreArea: "5.1 Gestión de Integración del proyecto",
+                state: gestionDeLaIntegracionDelProyecto5_1 ,
+                setState: setGestionDeLaIntegracionDelProyecto5_1,
+                procesos:[
+                    {
+                        nombreProceso:'5.1.1 Cerrar Proyecto o Fase',
+                        rutaProceso: 'cerrar_proyecto_o_fase',
+                    },
+                ]
+            },
 
-    //     ]
-    // },
+        ]
+    },
 
     {
         nombreGrupo: "Entregables",
