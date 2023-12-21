@@ -12,7 +12,7 @@ export const ImplementarLaRepuestaALosRiesgos = () => {
                     <p className="subtitulo">Plan de direccion de proyecto</p>
                     <ContenedorDoc doc='plan para la dirección de proyectos.pdf' />
                     <p className="subtitulo">Documentos del proyecto</p>
-                    <ContenedorDoc doc='Salida - Registro de riesgos.pdf' />
+                    <ContenedorDoc doc='Salida - Plan para la Gestión de los Riesgos.pdf' />
                     <p className="subtitulo">Factores Ambientales y Activos</p>
                     <ContenedorDoc doc='FACTORES AMBIENTALES.pdf' />
                     <p className="titulo">Herramientas</p>
@@ -23,7 +23,7 @@ export const ImplementarLaRepuestaALosRiesgos = () => {
 
                     <p className="titulo">Salidas</p>
                     <p className="subtitulo">Actualización del plan de dirección de proyecto</p>
-          <ContenedorDoc doc='plan para la dirección de proyectos.pdf' />
+          <ContenedorDoc doc='2plan para la dirección de proyectos.pdf' />
 
                 </div>
             </div>

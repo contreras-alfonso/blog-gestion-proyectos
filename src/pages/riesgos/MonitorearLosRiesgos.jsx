@@ -21,7 +21,7 @@ export const MonitorearLosRiesgos = () => {
           <p className="subtitulo">Información de desempeño de trabajo</p>
           <ContenedorDoc doc='Información de desempeño de trabajo.pdf' />
           <p className="subtitulo">Actualización del plan de dirección de proyecto</p>
-          <ContenedorDoc doc='plan para la dirección de proyectos.pdf' />
+          <ContenedorDoc doc='2plan para la dirección de proyectos.pdf' />
 
         </div>
       </div>

@@ -24,7 +24,7 @@ export const RealizarElAnalisisCuantitativoDeRiesgos = () => {
           <ContenedorImg img={'analisis_de_sensibilidad.png'} />
           <p className="titulo">Salidas</p>
           <p className="subtitulo">Actualizaciones a los documentos del proyecto</p>
-          <ContenedorDoc doc='plan para la dirección de proyectos.pdf' />
+          <ContenedorDoc doc='2plan para la dirección de proyectos.pdf' />
 
         </div>
       </div>

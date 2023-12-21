@@ -22,7 +22,7 @@ export const RealizarElAnalisisCualitativoDeRiesgos = () => {
             <ContenedorDoc doc='MATRIZ DE PROBABILIDAD E IMPACTO DE RIESGOS.pdf' />
             <p className="titulo">Salidas</p>
             <p className="subtitulo">Actualizaciones a los documentos del proyecto</p>
-                    <ContenedorDoc doc='plan para la dirección de proyectos.pdf' />
+                    <ContenedorDoc doc='2plan para la dirección de proyectos.pdf' />
         </div>
     </div>
 

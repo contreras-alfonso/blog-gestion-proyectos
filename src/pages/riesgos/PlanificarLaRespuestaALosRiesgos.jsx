@@ -26,7 +26,7 @@ export const PlanificarLaRespuestaALosRiesgos = () => {
           <ContenedorImg img={'Estrategias para oportunidades.PNG'}/>
           <p className="titulo">Salidas</p>
           <p className="subtitulo">Actualización del plan de dirección de proyecto</p>
-          <ContenedorDoc doc='plan para la dirección de proyectos.pdf' />
+          <ContenedorDoc doc='2plan para la dirección de proyectos.pdf' />
           <p className="subtitulo">Actualización de activos de la organización</p>
           <ContenedorDoc doc='FACTORES AMBIENTALES.pdf' />
         </div>

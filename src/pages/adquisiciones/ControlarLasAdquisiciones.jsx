@@ -27,7 +27,7 @@ export const ControlarLasAdquisiciones = () => {
           <ContenedorDoc doc='INFORMACION DEL DESEMPEÑO DEL TRABAJO.pdf' />
           <p className="subtitulo">Actualización del plan de dirección de proyecto
 </p>
-          <ContenedorDoc doc='plan para la dirección de proyectos.pdf' />
+          <ContenedorDoc doc='2plan para la dirección de proyectos.pdf' />
           <p className="subtitulo">Actualización de factores y activos de la organización</p>
           <ContenedorDoc doc='FACTORES AMBIENTALES.pdf' />
         </div>

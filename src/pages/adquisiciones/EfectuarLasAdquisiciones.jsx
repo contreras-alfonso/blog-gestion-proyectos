@@ -27,7 +27,7 @@ export const EfectuarLasAdquisiciones = () => {
           <p className="subtitulo">Vendedor Seleccionado</p>
           <ContenedorImg img={'vendedor_seleccionado.png'} size='60' />
           <p className="subtitulo">Actualizaciones a los documentos del proyecto</p>
-          <ContenedorDoc doc='plan para la dirección de proyectos.pdf' />
+          <ContenedorDoc doc='2plan para la dirección de proyectos.pdf' />
         </div>
       </div>
 
